@@ -9,3 +9,4 @@ fields:
   default: default
 pages:
 - test.html
+- test-2.html
