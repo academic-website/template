@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{% comment %}
+    A general page layout. Used by default for all content on the site.
+{% endcomment %}
+{% for section in page.page_sections %}
+{% include block-{{ section.block }}.html %}
+{% endfor %}
