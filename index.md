@@ -10,5 +10,5 @@ page_sections:
 date: 2018-07-09 00:00:00 +1000
 menu:
   main:
-    weight: 1
+    weight: 2
 ---
