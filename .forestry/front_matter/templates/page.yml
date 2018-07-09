@@ -19,5 +19,4 @@ fields:
   template_types:
   - body-copy
 pages:
-- test.md
 - index.md
