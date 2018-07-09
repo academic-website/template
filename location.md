@@ -6,5 +6,8 @@ page_sections:
 - template: body-copy
   block: body-copy
   content: "<h2>Venue</h2><p>The conference is being held at the beautiful Grand Hyatt.</p>"
+menu:
+  main:
+    weight: 1
 published: false
 ---
