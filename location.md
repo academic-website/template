@@ -8,5 +8,7 @@ page_sections:
   content: "<h2>Venue</h2><p>The conference is being held at the beautiful Grand Hyatt.</p>"
 menu:
   main:
+    identifier: _location
+    url: "/location.html"
     weight: 2
 ---
