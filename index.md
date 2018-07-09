@@ -4,5 +4,5 @@ layout: page
 page_sections:
 - template: detail-content
   block: body-copy
-  content:
+  content: <p>Hello</p>
 ---
