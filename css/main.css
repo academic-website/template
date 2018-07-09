@@ -125,27 +125,105 @@ img {
 
 body {
     font-family: 'Merriweather', serif;
+    background-color: #f4f4f4;
 }
-.site-header,
 h1 {
     font-family: 'Anton', sans-serif;
 }
 
 .container {
-    max-width: 1140px;
-    padding: 0 20px;
+    max-width: 1300px;
+    padding: 0 4%;
     margin: 0 auto;
 }
+main .container {
+    padding: 10px 4%;
+    background: #fff;
+}
+@media only screen and (min-width: 1140px) {
+    main {
+        padding: 0 2rem;
+    }
+}
 
-.main-nav {
-    background: #f7f7f7;
-    padding: 0 20px;
-    border-bottom: 1px solid #d1d1d1;
+/* banner */
+.banner {
+    font-family: 'Anton', sans-serif;
+    box-shadow: 0 1px 2px rgba(35,31,32,0.2);
+    padding: 0 2rem;
+}
+.banner .container {
+    padding: 0;
+}
+.banner .logo {
+    text-align: left;
+    float: left;
+    margin-right: 20px;
+}
+.banner .tag-line {
+    margin: 0;
+    padding: 5px 0 5px 0;
+    font-size: 3em;
+    font-weight: 300;
+    text-transform: uppercase;
 
+    line-height: 1;
+    text-align: right;
+}
+.banner .where-when {
+    margin: 5px 0;
+    font-size: 1.375em;
+    font-weight: 300;
+    line-height: 1;
+    text-align: right;
+}
+@media only screen and (min-width: 1140px) {
+    .banner {
+        padding: 0 2rem;
+    }
+}
+
+.hero {
+    position: relative;
+}
+.hero img {
+    margin: 0 auto;
+    display: block;
+}
+.hero-content {
+    position: absolute;
+    top: 4rem;
+    max-width: 500px;
+    margin-bottom: 4rem;
+}
+.hero-content h2 {
+    color: #fff;
+    font-size: 2.5em;
+}
+@media only screen and (min-width: 1140px) {
+    .hero {
+        padding-top: 4rem;
+    }
+    .hero img {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .hero-content {
+        position: static;
+        margin-bottom: 14rem;
+    }
+}
+
+.main-nav .container {
+    background: #fff;
     white-space: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
+    border-bottom: 1px solid rgba(35,31,32,0.2);
 }
 .main-nav ul {
     display: block;
@@ -178,32 +256,11 @@ h1 {
 .main-nav a.current {
 	color: #145F94; /* blue */
 }
-
-/* banner */
-.banner .logo {
-    text-align: left;
-    float: left;
-    margin-right: 20px;
+@media only screen and (min-width: 1140px) {
+    .main-nav {
+        padding: 0 2rem;
+    }
 }
-.banner .tag-line {
-    margin: 0;
-    padding: 5px 0 5px 0;
-    font-size: 3em;
-    font-weight: 300;
-    text-transform: uppercase;
-
-    line-height: 1;
-    text-align: right;
-}
-.banner .where-when {
-    margin: 5px 0;
-    font-size: 1.375em;
-    font-weight: 300;
-    line-height: 1;
-    text-align: right;
-}
-
-
 
 
 
