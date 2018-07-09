@@ -2,9 +2,6 @@
 title: Home
 layout: page
 page_sections:
-- template: detail-content
-  block: body-copy
-  content: "<p>Hello</p>"
 - template: body-copy
   block: body-copy
   content: "<h2>heading 2</h2><p>Paragraph, hello I'm a paragraph. I hope you are
