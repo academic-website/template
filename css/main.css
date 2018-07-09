@@ -152,7 +152,7 @@ h1 {
     padding: 0;
     margin: 0;
 
-    text-align: center;
+    text-align: left;
     white-space: nowrap;
 }
 .main-nav li {
@@ -179,8 +179,29 @@ h1 {
 	color: #145F94; /* blue */
 }
 
+/* banner */
+.banner .logo {
+    text-align: left;
+    float: left;
+    margin-right: 20px;
+}
+.banner .tag-line {
+    margin: 0;
+    padding: 5px 0 5px 0;
+    font-size: 3em;
+    font-weight: 300;
+    text-transform: uppercase;
 
-
+    line-height: 1;
+    text-align: right;
+}
+.banner .where-when {
+    margin: 5px 0;
+    font-size: 1.375em;
+    font-weight: 300;
+    line-height: 1;
+    text-align: right;
+}
 
 
 
