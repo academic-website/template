@@ -19,4 +19,5 @@ fields:
   template_types:
   - body-copy
 pages:
+- location.md
 - index.md
