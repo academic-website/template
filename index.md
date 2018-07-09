@@ -8,4 +8,7 @@ page_sections:
     well.</p><h3>heading 3</h3><p>this is looking good</p><ol><li><p>list</p><ul><li><p>list</p></li><li><p>list</p></li></ul></li><li><p>this
     is good</p></li></ol>"
 date: 2018-07-09 00:00:00 +1000
+menu:
+  main:
+    weight: 1
 ---

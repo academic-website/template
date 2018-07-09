@@ -8,6 +8,6 @@ page_sections:
   content: "<h2>Venue</h2><p>The conference is being held at the beautiful Grand Hyatt.</p>"
 menu:
   main:
-    weight: 2
+    weight: 1
 published: false
 ---
