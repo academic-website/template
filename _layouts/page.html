@@ -1,6 +1,9 @@
 {% include head.html %}
 {% include header.html %}
+<main>
 {% for section in page.page_sections %}
 {% include block-{{ section.block }}.html %}
 {% endfor %}
+</main>
+{% include footer.html %}
 {% include foot.html %}
