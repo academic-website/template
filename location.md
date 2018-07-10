@@ -1,5 +1,5 @@
 ---
-title: Location, travel and accommodation
+title: Venue, travel and accommodation
 layout: page
 date: 2018-07-09 00:00:00 +0000
 page_sections:
