@@ -1,5 +1,3 @@
-title: XXXX Conference 20XX
-description: XXXX conference 20XX
 baseurl:
 # Build settings
 defaults:
@@ -7,6 +5,6 @@ defaults:
         path: "" # an empty string here means all files in the project
     values:
         layout: "page" # this ensures all content renders with layouts/default.html
-gems:
+plugins:
     - jekyll-menus
     - jekyll-feed
