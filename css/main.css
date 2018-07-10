@@ -127,9 +127,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f4f4f4;
 }
-h1 {
-    /*font-family: 'Montserrat', sans-serif;*/
-}
 
 .container {
     max-width: 1300px;
@@ -138,6 +135,19 @@ h1 {
 }
 main {
     margin-bottom: 4em;
+}
+main .page-title {
+    background: #953ce0;
+    padding: 10px 4%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+main .page-title h1 {
+    font-size: 1.5em;
+    margin: 0.67em 0;
+    font-weight: normal;
+    font-style: italic;
+    color: #fff;
 }
 main h2,
 main h3,
