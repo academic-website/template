@@ -5,7 +5,7 @@ defaults:
         path: "" # an empty string here means all files in the project
     values:
         layout: "page" # this ensures all content renders with layouts/default.html
-plugins:
+gems:
     - jekyll-menus
     - jekyll-feed
 incremental: true
