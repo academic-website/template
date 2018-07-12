@@ -19,6 +19,7 @@ fields:
   label: Page Sections
   template_types:
   - body-copy
+  - figure
 pages:
 - location.md
 - index.md
