@@ -9,6 +9,7 @@ page_sections:
 - template: figure
   block: figure
   image: "/uploads/2018/07/12/32398964005_0a23c8e2ff_o.jpg"
+  display_full_width: true
 menu:
   main:
     identifier: _location
