@@ -11,6 +11,7 @@ page_sections:
   block: figure
   image: "/template/uploads/2018/07/12/melbourne-skyline-yarra.jpg"
   caption: Yarra Melb Skyline
+  display_full_width: true
 menu:
   main:
     identifier: _location
