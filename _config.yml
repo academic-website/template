@@ -1,4 +1,4 @@
-baseurl:
+baseurl: /template
 # Build settings
 defaults:
   - scope:
