@@ -6,9 +6,11 @@
     <h1>{{ page.title }}</h1>
 </div>
 {% endif %}
+<div class="container">
 {% for section in page.page_sections %}
 {% include block-{{ section.block }}.html %}
 {% endfor %}
+</div>
 </main>
 {% include footer.html %}
 {% include foot.html %}
