@@ -124,41 +124,179 @@ img {
 /* end */
 
 body {
-    font-family: 'Merriweather', serif;
-}
-.site-header,
-h1 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
 }
 
 .container {
-    max-width: 1140px;
-    padding: 0 20px;
+    max-width: 1300px;
+    padding: 0 4%;
     margin: 0 auto;
 }
+main {
+    margin-bottom: 4em;
+}
+main .page-title {
+    background: #953ce0;
+    padding: 10px 4%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+main .page-title h1 {
+    font-size: 1.5em;
+    margin: 0.67em 0;
+    font-weight: normal;
+    font-style: italic;
+    color: #fff;
+}
+main h2,
+main h3,
+main h4,
+main h5,
+main h6,
+main p,
+main li {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main img {
+    margin: 1em auto;
+}
+main .container {
+    padding: 2em 4%;
+    background: #fff;
+}
+@media only screen and (min-width: 1140px) {
+    main {
+        padding: 0 2em;
+    }
+}
 
-.main-nav {
-    background: #f7f7f7;
-    padding: 0 20px;
-    border-bottom: 1px solid #d1d1d1;
+/* banner */
+.banner {
+    box-shadow: 0 1px 2px rgba(35,31,32,0.2);
+    padding: 0 2em;
+    background: #fff;
+    /*color: #038d2a; #953ce0;*/
+}
+.banner .container {
+    padding: 0;
+}
+.banner .logo {
+    text-align: left;
+    float: left;
+    margin-right: 20px;
 
+    min-height: 100px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+}
+.banner .tag-line {
+    margin: 0;
+    padding: 5px 0 5px 0;
+    font-size: 2em;
+    font-size: calc(32px + (48 - 32) * ((100vw - 320px) / (1139 - 320)));
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    text-align: right;
+}
+.banner .where-when {
+    margin: 5px 0 10px 0;
+    font-size: 1em;
+    font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1139 - 320)));
+    font-weight: 300;
+    line-height: 1;
+    text-align: right;
+}
+@media only screen and (min-width: 1140px) {
+    .banner .tag-line {
+        font-size: 3em;
+    }
+    .banner .where-when {
+        font-size: 1.375em;
+    }
+}
+@media only screen and (min-width: 1140px) {
+    .banner {
+        padding: 0 2em;
+    }
+}
+
+.hero {
+    position: relative;
+}
+.hero img {
+    margin: 0 auto;
+    display: block;
+}
+.hero-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-left: 4%;
+    padding-right: 4%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;;
+}
+.hero-content h1,
+.hero-content p {
+    color: #fff;
+    font-size: 1.125em;
+    font-size: calc(18px + (40 - 18) * ((100vw - 320px) / (1139 - 320)));
+    font-weight: bold;
+    margin: 0.83em 0;
+}
+@media only screen and (min-width: 1140px) {
+    .hero {
+        padding: 6em 0 6em 0;
+    }
+    .hero img {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .hero-content {
+        position: static;
+        text-align: left;
+        max-width: 50%;
+        padding: 0;
+    }
+    .hero-content h1,
+    .hero-content p {
+        font-size: 2.5em;
+    }
+}
+
+.main-nav .container {
+    background: #fff;
     white-space: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
+    border-bottom: 1px solid rgba(35,31,32,0.2);
 }
 .main-nav ul {
     display: block;
     padding: 0;
     margin: 0;
 
-    text-align: center;
+    text-align: left;
     white-space: nowrap;
 }
 .main-nav li {
     list-style: none;
     display: inline-block;
     margin-right: 30px;
+    font-weight: bold;;
 }
 .main-nav li:last-child {
     margin-right: 0;
@@ -170,19 +308,20 @@ h1 {
     text-decoration: none;
     cursor: pointer;
     border-bottom: 0;
-    transition: all 0.5s ease-in;
 }
 .main-nav a:hover {
-	color: #51AC2D; /* green */
+	color: #038d2a; /* green */
+    border-bottom: 3px solid #038d2a;
 }
-.main-nav a.current {
-	color: #145F94; /* blue */
+.main-nav li.current a {
+	color: #953ce0; /* purple */
+    border-bottom: 3px solid #953ce0;
 }
-
-
-
-
-
+@media only screen and (min-width: 1140px) {
+    .main-nav {
+        padding: 0 2em;
+    }
+}
 
 
 
