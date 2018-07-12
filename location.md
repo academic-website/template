@@ -10,7 +10,7 @@ page_sections:
 - template: figure
   block: figure
   image: "/template/uploads/2018/07/12/melbourne-skyline-yarra.jpg"
-  caption: Yarra River with Melbourne Skyline
+  caption: Yarra Melb Skyline
 menu:
   main:
     identifier: _location
