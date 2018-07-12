@@ -6,7 +6,7 @@ page_sections:
 - template: body-copy
   block: body-copy
   content: <h2>Venue</h2><p>The conference is being held at the beautiful Grand Hyatt</p><p><img
-    src="/template/uploads/2018/07/12/melbourne-skyline-yarra.jpg"></p>
+    src="/template/uploads/2018/07/12/melbourne-skyline-yarra.jpg"></p><p>Hello</p>
 - template: figure
   block: figure
   image: "/template/uploads/2018/07/12/melbourne-skyline-yarra.jpg"
