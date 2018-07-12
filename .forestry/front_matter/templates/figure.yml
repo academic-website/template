@@ -14,3 +14,6 @@ fields:
 - type: text
   name: caption
   label: Caption
+- type: boolean
+  name: display_full_width
+  label: Display full width
