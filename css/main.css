@@ -160,8 +160,9 @@ main figure {
     max-width: 750px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
-main figure.fullwidth {
+main figure.full-width {
     max-width: 100%;
 }
 main figure,
