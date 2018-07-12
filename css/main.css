@@ -156,19 +156,19 @@ main h5,
 main h6,
 main p,
 main li,
-main.figure {
+main figure {
     max-width: 750px;
     margin-left: auto;
     margin-right: auto;
 }
-main.figure.fullwidth {
-
+main figure.fullwidth {
+    max-width: 100%;
 }
-main.figure,
+main figure,
 main img {
     margin: 1em auto;
 }
-main.figure img {
+main figure img {
     margin: 0 auto;
 }
 main .container {
