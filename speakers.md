@@ -31,7 +31,7 @@ page_sections:
 
       Lucy has worked in the higher education sector for a number of years in both academic and administrative positions, as well as in higher education regulation.  She has a number of qualifications including in Communication Studies, Legal Studies, Education, and Management Research.  She has also completed the Company Directors diploma and is a Fellow and Meritorious Service Award winner of the Association for Tertiary Education Management (ATEM).
     speaker_photo: "/template/uploads/2018/07/13/lucy-shultz---x----250-306x---.jpg"
-  display: One per row
+  display: Five max per row
 menu:
   main:
     weight: 3
