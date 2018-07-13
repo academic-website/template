@@ -23,4 +23,5 @@ page_sections:
 menu:
   main:
     weight: 3
+    title: Speakers
 ---
