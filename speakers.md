@@ -1,5 +1,5 @@
 ---
-title: Speakers
+title: Keynote speakers
 layout: page
 date: 2018-07-13 00:00:00 +0000
 page_sections:
