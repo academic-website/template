@@ -1,31 +1,24 @@
 ---
-label: Speaker list
-hide_body: true
+label: Speakers
+hide_body: false
 is_partial: true
 fields:
-- type: text
-    hidden: true
-    label: block
-    name: block
-    default: speaker-list
 - type: field_group_list
-    name: speakers
-    label: Speakers
-    description: List prominent speakers
-    hidden: false
-    fields:
-    - type: file
-      name: image
-      label: Image
-    - type: text
-      name: name
-      label: Speaker's Name
-      config:
-        required: true
-    - type: textarea
-      name: bio
-      label: Speaker's Bio
-        config:
-        required: true
-    config:
-      labelField: name
+  name: speakers
+  label: Speakers
+  description: List prominent speakers
+- type: file
+  name: speakers_photo
+  label: Speakers photo
+  config:
+    maxSize: '1'
+- type: text
+  name: speakers_name
+  label: Speakers name
+  config:
+    required: true
+- type: textarea
+  name: speaker_bio
+  label: Speaker bio
+  config:
+    required: true
