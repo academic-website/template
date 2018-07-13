@@ -9,7 +9,7 @@ fields:
   hidden: true
   label: block
   name: block
-  default: speakers
+  default: speaker-list
 - type: file
   name: image
   label: Image

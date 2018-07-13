@@ -20,7 +20,7 @@ fields:
   template_types:
   - body-copy
   - figure
-  - speakers
+  - speaker-list
 pages:
 - location.md
 - index.md
