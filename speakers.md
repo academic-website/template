@@ -10,6 +10,7 @@ page_sections:
     speaker_name: Ursula Wingate
     speaker_title: King’s College London
     speaker_bio: Hello
+  display: Two per row
 menu:
   main:
     weight: 2
