@@ -11,17 +11,6 @@ page_sections:
   image: "/uploads/2018/07/12/32398964005_0a23c8e2ff_o.jpg"
   display_full_width: true
   caption: Sydney harbour bridge
-- template: speakers
-  block: speaker-list
-  speakers:
-  - speaker_photo: "/template/uploads/2018/07/13/ursula-wingate---x----250-306x---.jpg"
-    speaker_name: Ursula Wingate
-    speaker_title: King’s College London
-    speaker_bio:
-  - speaker_name: Lucy Schulz
-    speaker_title: Deakin University
-    speaker_bio: 
-    speaker_photo: "/template/uploads/2018/07/13/lucy-shultz---x----250-306x---.jpg"
 menu:
   main:
     identifier: _location
