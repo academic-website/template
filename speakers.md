@@ -9,7 +9,7 @@ page_sections:
   - speaker_photo: "/template/uploads/2018/07/13/ursula-wingate---x----250-306x---.jpg"
     speaker_name: Ursula Wingate
     speaker_title: King’s College London
-    speaker_bio: Hello
+    speaker_bio: ''
   display: Two per row
 menu:
   main:
