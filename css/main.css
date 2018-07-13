@@ -340,7 +340,26 @@ main .container {
     }
 }
 
+/* speakers */
+.speaker-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4em;
+    align-items: stretch;
+}
+.speaker {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 2em;
+    margin: 4em 0;
+}
+.speaker img {
 
+}
+.speaker * {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 
 
