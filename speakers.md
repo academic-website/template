@@ -20,6 +20,16 @@ page_sections:
       Diversity: The Case for Inclusive Practice’, Ursula promotes a curriculum-embedded
       collaborative model of academic literacy instruction that is inclusive of students
       from all backgrounds.'
+  - speaker_name: Lucy Schulz
+    speaker_title: Deakin University
+    speaker_bio: |-
+      Lucy Schulz is Director of Deakin University’s Cloud Campus.  Prior to this she was Program Director for the LIVE Agenda, Deakin University’s vision for 2020 overseeing a range of projects focused on enhancing the student experience at each stage in their journey. 
+
+      Before commencing at Deakin University Lucy was Executive Director: Regulation and Review at TEQSA, the Australian regulator for higher education. 
+
+      Lucy has lead numerous strategic projects including large scale business change and technology projects particularly in university administrative and service areas.  She is very focused on creating value for customers – perhaps because of all those hospitality jobs when she was young. Added to this is her passion about the value and difference an education makes.
+
+      Lucy has worked in the higher education sector for a number of years in both academic and administrative positions, as well as in higher education regulation.  She has a number of qualifications including in Communication Studies, Legal Studies, Education, and Management Research.  She has also completed the Company Directors diploma and is a Fellow and Meritorious Service Award winner of the Association for Tertiary Education Management (ATEM).
   display: Two per row
 menu:
   main:
