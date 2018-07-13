@@ -1,0 +1,27 @@
+---
+type: field_group_list
+label: Speakers
+name: speakers
+hide_body: true
+is_partial: true
+fields:
+- type: text
+  hidden: true
+  label: block
+  name: block
+  default: speakers
+- type: file
+  name: image
+  label: Image
+- type: text
+  name: name
+  label: Speaker's Name
+  config:
+    required: true
+- type: textarea
+  name: bio
+  label: Speaker's Bio
+    config:
+    required: true
+config:
+  labelField: name
