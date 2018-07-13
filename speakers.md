@@ -12,6 +12,6 @@ page_sections:
     speaker_bio: Hello
 menu:
   main:
-    weight: 3
+    weight: 2
     title: Speakers
 ---
