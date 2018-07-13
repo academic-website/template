@@ -20,5 +20,4 @@ page_sections:
       Diversity: The Case for Inclusive Practice’, Ursula promotes a curriculum-embedded
       collaborative model of academic literacy instruction that is inclusive of students
       from all backgrounds.'
-published: false
 ---
