@@ -15,6 +15,6 @@ menu:
   main:
     identifier: _location
     url: "/location.html"
-    weight: 3
+    weight: 2
     title: Location
 ---
