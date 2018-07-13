@@ -24,6 +24,10 @@ fields:
   - type: textarea
     name: speaker_bio
     label: Speaker bio
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
 - type: text
   name: block
   label: block
