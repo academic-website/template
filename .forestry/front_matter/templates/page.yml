@@ -18,9 +18,9 @@ fields:
   name: page_sections
   label: Page Sections
   template_types:
-  - speakers
   - body-copy
   - figure
+  - speakers
 pages:
 - location.md
 - index.md
