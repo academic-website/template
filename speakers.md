@@ -22,5 +22,5 @@ page_sections:
       from all backgrounds.'
 menu:
   main:
-    weight: 1
+    weight: 3
 ---
