@@ -10,6 +10,7 @@ page_sections:
   block: figure
   image: "/uploads/2018/07/12/32398964005_0a23c8e2ff_o.jpg"
   display_full_width: true
+  caption: Sydney harbour bridge
 menu:
   main:
     identifier: _location
