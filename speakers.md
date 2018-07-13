@@ -13,6 +13,6 @@ page_sections:
   display: Two per row
 menu:
   main:
-    weight: 2
+    weight: 3
     title: Speakers
 ---
