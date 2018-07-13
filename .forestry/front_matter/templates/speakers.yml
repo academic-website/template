@@ -33,3 +33,14 @@ fields:
   label: block
   hidden: true
   default: speaker-list
+- type: select
+  name: display
+  config:
+    source:
+      type: simple
+    options:
+    - One per row
+    - Two per row
+    - Five max per row
+  label: Display
+  description: Choose display format
