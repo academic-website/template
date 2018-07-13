@@ -7,18 +7,25 @@ fields:
   name: speakers
   label: Speakers
   description: List prominent speakers
-- type: file
-  name: speakers_photo
-  label: Speakers photo
-  config:
-    maxSize: '1'
+  fields:
+  - type: file
+    name: speaker_photo
+    label: Speaker photo
+    config:
+      maxSize: '1'
+  - type: text
+    name: speaker_name
+    label: Speaker name
+    config:
+      required: true
+  - type: text
+    name: speaker_title/organisation
+    label: Speaker title/organisation
+  - type: textarea
+    name: speaker_bio
+    label: Speaker bio
 - type: text
-  name: speakers_name
-  label: Speakers name
-  config:
-    required: true
-- type: textarea
-  name: speaker_bio
-  label: Speaker bio
-  config:
-    required: true
+  name: block
+  label: block
+  hidden: true
+  default: speaker-list
