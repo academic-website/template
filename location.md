@@ -32,6 +32,7 @@ page_sections:
       Education, and Management Research.  She has also completed the Company Directors
       diploma and is a Fellow and Meritorious Service Award winner of the Association
       for Tertiary Education Management (ATEM)."
+    speaker_photo: "/template/uploads/2018/07/13/lucy-shultz---x----250-306x---.jpg"
   - speaker_photo: "/template/uploads/2018/07/13/ursula-wingate---x----250-306x---.jpg"
     speaker_name: Ursula Wingate
     speaker_title/organisation: King’s College London
