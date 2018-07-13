@@ -345,7 +345,11 @@ main .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 4em;
-    align-items: stretch;
+}
+.speaker-list.five-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 2em;
 }
 .speaker {
     display: grid;
@@ -360,7 +364,12 @@ main .container {
     margin-left: 0;
     margin-right: 0;
 }
-
+.speaker-list.five-column .speaker {
+    display: block;
+}
+.speaker-list.five-column .bio {
+    display: none;
+}
 
 
 
