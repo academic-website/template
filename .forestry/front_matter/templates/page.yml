@@ -22,6 +22,6 @@ fields:
   - figure
   - speakers
 pages:
-- speakers.md
 - location.md
+- speakers.md
 - index.md
