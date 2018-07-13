@@ -10,7 +10,7 @@
     <!-- Place favicon.ico in the root directory -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400,400i,600" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/css/normalize.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}?v={{ site.time  | date_to_xmlschema }}">
 </head>
 <body>
 <!--[if lte IE 9]>
