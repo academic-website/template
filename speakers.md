@@ -30,6 +30,7 @@ page_sections:
       Lucy has lead numerous strategic projects including large scale business change and technology projects particularly in university administrative and service areas.  She is very focused on creating value for customers – perhaps because of all those hospitality jobs when she was young. Added to this is her passion about the value and difference an education makes.
 
       Lucy has worked in the higher education sector for a number of years in both academic and administrative positions, as well as in higher education regulation.  She has a number of qualifications including in Communication Studies, Legal Studies, Education, and Management Research.  She has also completed the Company Directors diploma and is a Fellow and Meritorious Service Award winner of the Association for Tertiary Education Management (ATEM).
+    speaker_photo: "/template/uploads/2018/07/13/lucy-shultz---x----250-306x---.jpg"
   display: Two per row
 menu:
   main:
