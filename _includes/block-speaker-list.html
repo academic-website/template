@@ -1,8 +1,10 @@
+<div class="block speaker-list">
 {% for speaker in section.speakers %}
-<div class="speaker">
-    <img src="{{ speaker.speaker_photo }}" alt="Photo of {{ speaker.speaker_name }}">
-    <h2>{{ speaker.speaker_name }}</h2>
-    <p>{{ speaker.speaker_title/organisation }}</p>
-    <small>{{ speaker.speaker_bio }}</small>
-</div>
+    <div class="speaker">
+        <img src="{{ speaker.speaker_photo }}" alt="Photo of {{ speaker.speaker_name }}">
+        <h2>{{ speaker.speaker_name }}</h2>
+        <p>{{ speaker.speaker_title/organisation }}</p>
+        {{ speaker.speaker_bio }}
+    </div>
 {% endfor %}
+</div>
