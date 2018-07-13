@@ -5,7 +5,7 @@
         <div class="details">
             <h2>{{ speaker.speaker_name }}</h2>
             <p><b>{{ speaker.speaker_title }}</b></p>
-            {{ speaker.speaker_bio }}
+            {{ speaker.speaker_bio | markdownify }}
         </div>
     </div>
 {% endfor %}
