@@ -1,4 +1,4 @@
-<div class="block speaker-list">
+<div class="block speaker-list {% if section.speakers.display == "Two per row" %}two-column{% endif %}">
 {% for speaker in section.speakers %}
     <div class="speaker">
         <img src="{{ speaker.speaker_photo }}" alt="Photo of {{ speaker.speaker_name }}">

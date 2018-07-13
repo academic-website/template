@@ -341,7 +341,7 @@ main .container {
 }
 
 /* speakers */
-.speaker-list {
+.speaker-list.two-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 4em;
