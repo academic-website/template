@@ -1,7 +1,8 @@
 {% for speaker in section.speakers %}
 <div class="speaker">
-    <img src="{{ speaker.image }}" alt="Photo of {{ speaker.name }}">
-    <h2>{{ speaker.name }}</h2>
-    <small>{{ speaker.bio }}</small>
+    <img src="{{ speaker.speaker_photo }}" alt="Photo of {{ speaker.speaker_name }}">
+    <h2>{{ speaker.speaker_name }}</h2>
+    <p>{{ speaker.speaker_title/organisation }}</p>
+    <small>{{ speaker.speaker_bio }}</small>
 </div>
 {% endfor %}
