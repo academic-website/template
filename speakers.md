@@ -8,7 +8,7 @@ page_sections:
   speakers:
   - speaker_photo: "/template/uploads/2018/07/13/ursula-wingate---x----250-306x---.jpg"
     speaker_name: Ursula Wingate
-    speaker_title: King’s College London
+    speaker_title: Senior Lecturer in Language in Education
     speaker_bio: 'Ursula Wingate is Senior Lecturer in Language in Education and works
       in the School of Education, Communication and Society at King’s College London.
       Ursula’s research interests are in academic literacy, English language policies
@@ -20,6 +20,7 @@ page_sections:
       Diversity: The Case for Inclusive Practice’, Ursula promotes a curriculum-embedded
       collaborative model of academic literacy instruction that is inclusive of students
       from all backgrounds.'
+    speaker_organisation: King’s College London
   - speaker_name: Lucy Schulz
     speaker_title: Deakin University
     speaker_bio: |-
@@ -36,4 +37,5 @@ menu:
   main:
     weight: 3
     title: Speakers
+
 ---
