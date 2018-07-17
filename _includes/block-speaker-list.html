@@ -4,7 +4,7 @@
         <img src="{{ speaker.speaker_photo }}" alt="Photo of {{ speaker.speaker_name }}">
         <div class="details">
             <h5>{{ speaker.speaker_name }}</h5>
-            {% if speaker.speaker_organisation or speaker.speaker_title %}<p><b>{{ speaker.speaker_title}}{% if speaker.speaker_organisation and speaker.speaker_title %}<br>{% endif %} {{ speaker.speaker_organisation }}</b></p>{% endif %}
+            {% if speaker.speaker_organisation or speaker.speaker_title %}<p><b><em>{{ speaker.speaker_title}}</em>{% if speaker.speaker_organisation and speaker.speaker_title %}<br>{% endif %} {{ speaker.speaker_organisation }}</b></p>{% endif %}
             {% if speaker.speaker_bio %}
             <div class="bio">{{ speaker.speaker_bio | markdownify }}</div>
             <button class="show-bio">Bio</button>
