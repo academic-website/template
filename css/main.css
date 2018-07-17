@@ -408,7 +408,9 @@ main .container {
     display: none;
 }
 
-
+.large-headline p {
+    font-size: 3em;
+}
 
 
 /* ==========================================================================
