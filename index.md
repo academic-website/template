@@ -2,6 +2,10 @@
 title: Home
 layout: page
 page_sections:
+- template: large-headline
+  block: large-headline
+  large_headline: 'The premier conference for conference mangers and and evangelists
+    is on again in 2020 '
 - template: body-copy
   block: body-copy
   content: "<h2>heading 2</h2><p>Paragraph, hello I'm a paragraph. I hope you are
@@ -13,4 +17,5 @@ menu:
     identifier: _index
     url: "/"
     weight: 1
+
 ---
