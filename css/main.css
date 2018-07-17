@@ -182,11 +182,31 @@ main h4,
 main h5,
 main h6,
 main p,
-main li,
+main ol,
+main ul,
 main figure {
     max-width: 750px;
     margin-left: auto;
     margin-right: auto;
+}
+main h2 {
+    margin: 3em auto 0 auto;
+    font-size: 3.125em;
+}
+main h3 {
+    margin: 3em auto 0 auto;
+    font-size: 2.618em;
+}
+main h4 {
+    margin: 3em auto 0 auto;
+    font-size: 1.931em;
+}
+main h5 {
+    margin: 3em auto 0 auto;
+    font-size: 1.618em;
+}
+main h6 {
+    margin: 3em auto 0 auto;
 }
 main figure.full-width {
     max-width: 100%;
@@ -202,8 +222,11 @@ main figure img {
     margin: 0 auto;
 }
 main .container {
-    padding: 3em 4%;
+    padding: 4%;
     background: #fff;
+}
+main .container .block:first-child *:first-child {
+    margin-top: 0;
 }
 @media only screen and (min-width: 1140px) {
     main {
@@ -234,7 +257,6 @@ main .container {
     font-size: calc(32px + (48 - 32) * ((100vw - 320px) / (1139 - 320)));
     font-weight: 400;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
     line-height: 1;
     text-align: right;
 }
@@ -409,7 +431,7 @@ main .container {
 }
 
 .large-headline p {
-    font-size: calc(18px + (48 - 18) * ((100vw - 320px) / (1139 - 320)));
+    font-size: calc(20px + (48 - 20) * ((100vw - 320px) / (1139 - 320)));
     max-width: 900px;
     text-align: center;
 }
