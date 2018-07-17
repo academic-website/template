@@ -364,8 +364,14 @@ main .container {
     margin-left: 0;
     margin-right: 0;
 }
+.speaker .show-bio {
+    display: none;
+}
 .speaker-list.five-column .speaker {
     display: block;
+}
+.speaker-list.five-column .speaker .show-bio {
+    display: inline;
 }
 .speaker-list.five-column .bio {
     display: none;
