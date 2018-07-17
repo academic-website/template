@@ -192,10 +192,12 @@ main figure {
 main h2 {
     margin: 3em auto 0 auto;
     font-size: 3.125em;
+    font-weight: 300;
 }
 main h3 {
     margin: 3em auto 0 auto;
     font-size: 2.618em;
+    font-weight: 300;
 }
 main h4 {
     margin: 3em auto 0 auto;
