@@ -21,6 +21,7 @@ fields:
   - body-copy
   - figure
   - speakers
+  - large-headline
 pages:
 - location.md
 - speakers.md
