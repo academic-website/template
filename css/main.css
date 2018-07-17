@@ -412,6 +412,14 @@ main .container .block:first-child *:first-child {
     margin-left: 0;
     margin-right: 0;
 }
+.speaker .speaker-title {
+    font-weight: bold;
+    display: block;
+}
+.speaker .speaker-organisation {
+    font-style: italic;;
+    display: block;
+}
 .speaker .show-bio {
     display: none;
     font-size: 0.8em;
