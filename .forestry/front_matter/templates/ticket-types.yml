@@ -1,0 +1,17 @@
+---
+label: Ticket types
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: block
+  label: block
+  hidden: true
+- type: text
+  name: ticket_name
+  label: Ticket name
+  config:
+    required: true
+- type: textarea
+  name: ticket_details
+  label: Ticket details
