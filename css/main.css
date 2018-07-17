@@ -185,12 +185,8 @@ main .container {
 /* banner */
 .banner {
     box-shadow: 0 1px 2px rgba(35,31,32,0.2);
-    padding: 0 2em;
     background: #fff;
     /*color: #038d2a; #953ce0;*/
-}
-.banner .container {
-    padding: 0;
 }
 .banner .logo {
     text-align: left;
@@ -229,12 +225,6 @@ main .container {
         font-size: 1.375em;
     }
 }
-@media only screen and (min-width: 1140px) {
-    .banner {
-        padding: 0 2em;
-    }
-}
-
 .hero {
     position: relative;
     z-index: -1;
