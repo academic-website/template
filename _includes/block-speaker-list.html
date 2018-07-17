@@ -3,10 +3,12 @@
     <div class="speaker">
         <img src="{{ speaker.speaker_photo }}" alt="Photo of {{ speaker.speaker_name }}">
         <div class="details">
-            <h2>{{ speaker.speaker_name }}</h2>
-            <p><b>{{ speaker.speaker_title }}</b></p>
+            <h5>{{ speaker.speaker_name }}</h5>
+            {% if speaker.speaker_organisation or speaker.speaker_title %}<p><b>{% if speaker.speaker_organisation %}{{ speaker.speaker_organisation}}<br>{{ speaker.speaker_title }}</b></p>{% endif %}
+            {% if speaker.speaker.speaker_bio %}
             <div class="bio">{{ speaker.speaker_bio | markdownify }}</div>
             <button class="show-bio">Bio</button>
+            {% endif %}
         </div>
     </div>
 {% endfor %}

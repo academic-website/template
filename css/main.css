@@ -195,20 +195,25 @@ main h2 {
     font-weight: 300;
 }
 main h3 {
-    margin: 3em auto 0 auto;
+    margin: 2em auto 0 auto;
     font-size: 2.618em;
     font-weight: 300;
 }
 main h4 {
-    margin: 3em auto 0 auto;
+    margin: 1.5em auto 0 auto;
     font-size: 1.931em;
+    font-weight: 400;
 }
 main h5 {
-    margin: 3em auto 0 auto;
+    margin: 1.5em auto 0 auto;
     font-size: 1.618em;
+    font-weight: 400;
 }
 main h6 {
     margin: 3em auto 0 auto;
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 main figure.full-width {
     max-width: 100%;
