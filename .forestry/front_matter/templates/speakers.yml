@@ -21,6 +21,9 @@ fields:
   - type: text
     name: speaker_title
     label: Speaker title
+  - type: text
+    label: Speaker organisation
+    name: speaker_organisation
   - type: textarea
     name: speaker_bio
     label: Speaker bio
