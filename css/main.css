@@ -340,6 +340,13 @@ main .container .block:first-child *:first-child {
     }
 }
 
+.main-nav.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    margin-top: 0;
+}
 .main-nav .container {
     background: #fff;
     white-space: nowrap;
