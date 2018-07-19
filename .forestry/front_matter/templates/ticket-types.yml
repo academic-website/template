@@ -7,11 +7,6 @@ fields:
   name: block
   label: block
   hidden: true
-- type: text
-  name: ticket_name
-  label: Ticket name
-  config:
-    required: true
-- type: textarea
-  name: ticket_details
-  label: Ticket details
+- type: field_group_list
+  name: ticket_type
+  label: Ticket type
