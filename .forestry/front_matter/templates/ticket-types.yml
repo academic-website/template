@@ -49,7 +49,9 @@ fields:
   name: purchase_link_label
   config:
     source:
-      type: simple
+      type: datafiles
+      file: _data-ticket-types-yml
+      path: types
     options:
     - Register
     - Buy now
