@@ -26,5 +26,6 @@ page_sections:
       at the one time a 10% registration discount will be made available at the time
       of payment. 
   purchase_link: https://www.etouches.com/216893
+  max_per_row: '3'
 
 ---
