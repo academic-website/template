@@ -9,4 +9,4 @@ fields:
   hidden: true
 - type: field_group_list
   name: ticket_type
-  label: Ticket type
+  label: Ticket types
