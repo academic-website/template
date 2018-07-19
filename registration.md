@@ -7,7 +7,7 @@ page_sections:
   block: ticket-types
   ticket_types:
   - ticket_name: Member Registrations
-    ticket_details: "**Early Bird $440** (closes September 15th, 2017)   \n**Standard
+    ticket_details: "**Early Bird $440** (closes September 15th, 2017) \n\n**Standard
       $495**\n\n# Heading 1\n\n## **Includes heading 2**\n\n* Full conference program\n*
       All social functions\n\n### Heading 3\n\n#### Heading 4\n\n##### Heading 5\n\n######
       Heading 6 "
