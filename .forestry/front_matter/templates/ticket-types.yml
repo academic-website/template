@@ -34,3 +34,8 @@ fields:
   name: purchase_link
   label: Purchase link
   description: If you have a general purchase link for all ticket types enter it here
+- type: number
+  name: max_per_row
+  label: Maximum types per row
+  config:
+    step: '1'
