@@ -17,6 +17,6 @@
         {% endfor %}
     </ul>
     {% if section.purchase_link %}
-    <p><a class="purchase button" href="{{ section.purchase_link }}">{% if section.purchase_link_label %}{{ section.purchase_link_label }}{% else %}Register{% endif %}</a>
+    <p class="general-purchase"><a class="purchase button" href="{{ section.purchase_link }}">{% if section.purchase_link_label %}{{ section.purchase_link_label }}{% else %}Register{% endif %}</a>
     {% endif %}
 </div>
