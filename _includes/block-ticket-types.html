@@ -6,9 +6,11 @@
                 <p class="ticket-name">{{ ticket.ticket_name }}</p>
             </header>
             <div class="ticket-details">{{ ticket.ticket_details | markdownify }}</div>
+            {% if ticket.purchase_link %}
             <footer>
                 <a class="purchase button" href="{{ ticket.purchase_link }}">Register</a>
             </footer>
+            {% endif %}
         </li>
         {% endfor %}
     </ul>
