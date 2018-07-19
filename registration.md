@@ -46,7 +46,7 @@ page_sections:
       of payment. 
   purchase_link: https://www.etouches.com/216893
   max_per_row: '3'
-  purchase_link_label: Purchase
+  purchase_link_label: Get your ticket now
 menu:
   main:
     weight: 4
