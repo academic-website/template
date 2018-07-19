@@ -20,6 +20,7 @@ page_sections:
       * Full conference program
       * All social functions
     purchase_link: https://www.etouches.com/216893
+    purchase_link_label: Buy your tickets
   - ticket_name: Non Member Registrations
     ticket_details: |-
       **Early Bird** $470 (closes September 15th, 2017)
