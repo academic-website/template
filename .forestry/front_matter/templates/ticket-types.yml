@@ -54,6 +54,9 @@ fields:
     - Register
     - Buy now
     - Purchase
+    - Register now
+    - Get your tickets now
+    - Purchase now
   label: Purchase link label
   description: 'If you entered a URL in ''Purchase link'', you can choose what text
     to display on the button. '
