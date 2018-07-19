@@ -130,7 +130,7 @@ button,
     padding: 1rem 2rem;
     margin: 0;
     text-decoration: none;
-    background: #9339e0;
+    background: #ec455a; /*#ab65e7;*/
     color: #ffffff;
     font-family: sans-serif;
     font-size: 1rem;
@@ -563,6 +563,10 @@ main .container .block:first-child *:first-child {
 .ticket footer {
     margin-top:auto;
     padding: 1.5em 2em 0 2em;
+}
+.ticket .purchase.button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
 }
 .general-purchase {
     text-align: center;;
