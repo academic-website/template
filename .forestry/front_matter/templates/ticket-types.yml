@@ -20,6 +20,10 @@ fields:
   - type: textarea
     name: ticket_details
     label: Ticket details
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
   - type: text
     name: purchase_link
     label: Purchase link
