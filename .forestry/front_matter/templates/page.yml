@@ -25,7 +25,6 @@ fields:
   - ticket-types
 pages:
 - what-happens.md
-- test.md
 - registration.md
 - location.md
 - index.md
