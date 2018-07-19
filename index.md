@@ -16,8 +16,6 @@ page_sections:
 date: 2018-07-08 14:00:00 +0000
 menu:
   main:
-    identifier: _index
-    url: "/"
     weight: 1
 
 ---

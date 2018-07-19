@@ -13,8 +13,6 @@ page_sections:
   caption: Sydney harbour bridge
 menu:
   main:
-    identifier: _location
-    url: "/location.html"
     weight: 2
     title: Location
 

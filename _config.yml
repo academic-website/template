@@ -9,3 +9,4 @@ gems:
     - jekyll-menus
     - jekyll-feed
 incremental: true
+permalink: pretty
