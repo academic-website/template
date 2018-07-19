@@ -26,7 +26,7 @@ page_sections:
     ticket_details: |-
       **Virtual Registrations** $250
 
-       This will offer a single stream of presentations only and be limited to 100 participants. Virtual sessions will be scheduled across all days of the conference.
+      This will offer a single stream of presentations only and be limited to 100 participants. Virtual sessions will be scheduled across all days of the conference.
   - ticket_name: Day Registration
     ticket_details: |-
       **Day Registration** $250
