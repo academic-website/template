@@ -44,5 +44,8 @@ page_sections:
   purchase_link: https://www.etouches.com/216893
   max_per_row: '3'
   purchase_link_label: Purchase
+menu:
+  main:
+    weight: 1
 
 ---
