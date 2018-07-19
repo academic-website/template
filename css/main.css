@@ -479,12 +479,48 @@ main .container .block:first-child *:first-child {
     }
 }
 
-
-.tickets,
-.tickets * {
+.ticket-types h1,
+.ticket-types h2,
+.ticket-types h3,
+.ticket-types h4,
+.ticket-types h5,
+.ticket-types h6,
+.ticket-types p,
+.ticket-types ol,
+.ticket-types ul,
+.ticket-types figure {
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
+}
+.ticket-types h1,
+.ticket-types h2,
+.ticket-types h3,
+.ticket-types h4,
+.ticket-types h5,
+.ticket-types h6 {
+    margin: 1em 0 0 0;
+}
+.ticket-types h2 {
+    font-size: 1.424em;
+    font-weight: 300;
+}
+.ticket-types h3 {
+    font-size: 1.266em;
+    font-weight: 300;
+}
+.ticket-types h4 {
+    font-size: 1.125em;
+    font-weight: 400;
+}
+.ticket-types h5 {
+    font-size: 1em;
+    font-weight: 400;
+}
+.ticket-types h6 {
+    font-size: 0.889em;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 .tickets {
     list-style-type: none;
@@ -501,11 +537,9 @@ main .container .block:first-child *:first-child {
 }
 .tickets.max-4-per-row .ticket {
     width: 23%;
-    margin: 0 1% 2em 1%;
 }
 .tickets.max-5-per-row .ticket {
     width: 18%;
-    margin: 0 1% 2em 1%;
 }
 .ticket {
     display: flex;
@@ -516,7 +550,7 @@ main .container .block:first-child *:first-child {
     text-align: center;
 }
 .ticket header {
-    padding: 1.5em 0;
+    padding: 2em 0;
 }
 .ticket footer {
     margin-top:auto;
@@ -524,7 +558,11 @@ main .container .block:first-child *:first-child {
 }
 .ticket-name {
     font-size: 1.2rem;
+    margin: 0;
     color: #7a1fc6;
+}
+.general-purchase {
+    text-align: center;;
 }
 
 /* ==========================================================================
