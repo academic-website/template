@@ -9,4 +9,8 @@ $(document).ready(function() {
             $('.main-nav').removeClass('fixed');
         }
     });
+    $(window).resize(function() {
+        offset = $('.main-nav').offset();
+        offsetTrigger = offset.top;
+    });
 });
