@@ -7,8 +7,10 @@ page_sections:
   block: ticket-types
   ticket_types:
   - ticket_name: Member Registrations
-    ticket_details: "Early Bird $440 (closes September 15th, 2017)   \nStandard $495\n\n###
-      **Includes**\n\n* Full conference program\n* All social functions"
+    ticket_details: "**Early Bird $440** (closes September 15th, 2017)   \n**Standard
+      $495**\n\n# Heading 1\n\n## **Includes heading 2**\n\n* Full conference program\n*
+      All social functions\n\n### Heading 3\n\n#### Heading 4\n\n##### Heading 5\n\n######
+      Heading 6 "
     purchase_link: https://www.etouches.com/216893
   - ticket_name: Non Member Registrations
     ticket_details: "Early Bird $470 (closes September 15th, 2017)  \nStandard $540\n\n###
