@@ -3,6 +3,9 @@ title: Registration
 layout: page
 date: 2018-07-19 00:00:00 +0000
 page_sections:
+- template: body-copy
+  block: body-copy
+  content: "<p>There will be</p>"
 - template: ticket-types
   block: ticket-types
   ticket_types:
