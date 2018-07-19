@@ -24,5 +24,6 @@ fields:
   - large-headline
 pages:
 - location.md
+- registration.md
 - index.md
 - speakers.md
