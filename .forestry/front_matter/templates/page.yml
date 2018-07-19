@@ -20,8 +20,9 @@ fields:
   template_types:
   - body-copy
   - figure
-  - speakers
   - large-headline
+  - speakers
+  - ticket-types
 pages:
 - location.md
 - index.md
