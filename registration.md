@@ -13,8 +13,15 @@ page_sections:
       Heading 6 "
     purchase_link: https://www.etouches.com/216893
   - ticket_name: Non Member Registrations
-    ticket_details: "Early Bird $470 (closes September 15th, 2017)  \nStandard $540\n\n###
-      **Includes**\n\n* Full conference program\n* All social functions"
+    ticket_details: |-
+      **Early Bird** $470 (closes September 15th, 2017)
+
+      **Standard** $540
+
+      ### **Includes**
+
+      * Full conference program
+      * All social functions
   - ticket_name: Virtual Registrations
     ticket_details: "Virtual Registrations $250   \nThis will offer a single stream
       of presentations only and be limited to 100 participants. Virtual sessions will
