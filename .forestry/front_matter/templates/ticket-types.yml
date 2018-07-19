@@ -39,3 +39,13 @@ fields:
   label: Maximum types per row
   config:
     step: '1'
+- type: select
+  name: purchase_link_label
+  config:
+    source:
+      type: simple
+    options:
+    - Register
+    - Buy now
+    - Purchase
+  label: Purchase link label
