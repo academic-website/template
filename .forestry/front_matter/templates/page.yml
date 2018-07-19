@@ -24,7 +24,6 @@ fields:
   - speakers
   - ticket-types
 pages:
-- what-happens.md
 - registration.md
 - location.md
 - index.md
