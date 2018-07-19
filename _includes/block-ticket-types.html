@@ -5,13 +5,18 @@
             <header>
                 <p class="ticket-name">{{ ticket.ticket_name }}</p>
             </header>
+            {% if ticket.ticket_details %}
             <div class="ticket-details">{{ ticket.ticket_details | markdownify }}</div>
+            {% endif %}
             {% if ticket.purchase_link %}
             <footer>
-                <a class="purchase button" href="{{ ticket.purchase_link }}">Register</a>
+                <a class="purchase button" href="{{ ticket.purchase_link }}">{% if ticket.purchase_link_label %}{{ ticket.purchase_link_label }}{% else %}Register{% endif %}</a>
             </footer>
             {% endif %}
         </li>
         {% endfor %}
     </ul>
+    {% if section.purchase_link %}
+    <p><a class="purchase button" href="{{ section.purchase_link }}">{% if section.purchase_link_label %}{{ section.purchase_link_label }}{% else %}Register{% endif %}</a>
+    {% endif %}
 </div>
