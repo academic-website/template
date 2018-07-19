@@ -25,3 +25,7 @@ fields:
     label: Purchase link
     description: If you have a direct purchase link for each ticket than include it
       here
+- type: text
+  name: purchase_link
+  label: Purchase link
+  description: If you have a general purchase link for all ticket types enter it here
