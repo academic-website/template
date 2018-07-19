@@ -127,7 +127,8 @@ button,
 .button {
     display: inline-block;
     border: none;
-    padding: 1rem 2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
     margin: 0;
     text-decoration: none;
     background: #ec455a; /*#ab65e7;*/
@@ -563,10 +564,6 @@ main .container .block:first-child *:first-child {
 .ticket footer {
     margin-top:auto;
     padding: 1.5em 2em 0 2em;
-}
-.ticket .purchase.button {
-    padding: 0.5rem 1.5rem;
-    border-radius: 20px;
 }
 .general-purchase {
     text-align: center;;
