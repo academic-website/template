@@ -30,6 +30,16 @@ fields:
     label: Purchase link
     description: If you have a direct purchase link for each ticket than include it
       here
+  - type: select
+    config:
+      source:
+        type: datafiles
+        file: _data-ticket-types-yml
+        path: types
+    description: If you entered a URL in 'Purchase link', you can choose what text
+      to display on the button.
+    label: Purchase link label
+    name: purchase_link_label
 - type: select
   name: max_per_row
   config:
