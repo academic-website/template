@@ -8,5 +8,6 @@ fields:
   label: block
   hidden: true
 - type: field_group_list
-  name: ticket_type
+  name: ticket_types
   label: Ticket types
+  description: Add different ticket options
