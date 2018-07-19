@@ -15,7 +15,7 @@ page_sections:
 
       **Standard $495**
 
-      ## **Includes**
+      ## Includes
 
       * Full conference program
       * All social functions
@@ -27,7 +27,7 @@ page_sections:
 
       **Standard** $540
 
-      ### **Includes**
+      ### Includes
 
       * Full conference program
       * All social functions
