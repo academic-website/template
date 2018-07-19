@@ -30,6 +30,16 @@ fields:
     label: Purchase link
     description: If you have a direct purchase link for each ticket than include it
       here
+- type: select
+  name: max_per_row
+  config:
+    source:
+      type: simple
+    options:
+    - '3'
+    - '4'
+    - '5'
+  label: Maximum types per row
 - type: text
   name: purchase_link
   label: Purchase link
@@ -47,13 +57,3 @@ fields:
   label: Purchase link label
   description: 'If you entered a URL in ''Purchase link'', you can choose what text
     to display on the button. '
-- type: select
-  name: max_per_row
-  config:
-    source:
-      type: simple
-    options:
-    - '3'
-    - '4'
-    - '5'
-  label: Maximum types per row
