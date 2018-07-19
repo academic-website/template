@@ -11,3 +11,17 @@ fields:
   name: ticket_types
   label: Ticket types
   description: Add different ticket options
+  fields:
+  - type: text
+    name: ticket_name
+    label: Ticket name
+    config:
+      required: true
+  - type: textarea
+    name: ticket_details
+    label: Ticket details
+  - type: text
+    name: purchase_link
+    label: Purchase link
+    description: If you have a direct purchase link for each ticket than include it
+      here
