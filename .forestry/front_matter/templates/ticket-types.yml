@@ -30,10 +30,6 @@ fields:
     label: Purchase link
     description: If you have a direct purchase link for each ticket than include it
       here
-- type: text
-  name: purchase_link
-  label: Purchase link
-  description: If you have a general purchase link for all ticket types enter it here
 - type: number
   name: max_per_row
   label: Maximum types per row
@@ -43,6 +39,11 @@ fields:
     min: '1'
     required: true
   default: '3'
+- type: text
+  name: purchase_link
+  label: Purchase link
+  description: If you have only one register/purchase page for all ticket types enter
+    the URL here and a register button will be displayed below the ticket type list.
 - type: select
   name: purchase_link_label
   config:
