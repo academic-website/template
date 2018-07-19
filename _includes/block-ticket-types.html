@@ -1,9 +1,10 @@
 <div class="block ticket-types">
-{% for ticket in section.tickets %}
+{% for ticket in section.ticket-types %}
     <ul class="ticket-types">
         <li>
             <p class="ticket-name">{{ ticket.ticket_name }}</p>
             <div class="ticket-details">{{ ticket.ticket_details | markdownify }}</div>
+            <a href="{{ ticket.purchase_link }}">Register</a>
         </div>
     </div>
 {% endfor %}
