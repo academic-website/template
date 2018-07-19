@@ -46,6 +46,6 @@ page_sections:
   purchase_link_label: Purchase
 menu:
   main:
-    weight: 1
+    weight: 4
 
 ---
