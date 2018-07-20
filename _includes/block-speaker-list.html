@@ -1,15 +1,13 @@
 <div class="block speaker-list{% if section.display == 'Two per row' %} two-column{% elsif section.display == 'Five max per row' %} five-column{% endif %}">
-{% for speaker in section.speakers %}
-    <div class="speaker">
-        <img src="{{ speaker.speaker_photo }}" alt="Photo of {{ speaker.speaker_name }}">
-        <div class="details">
-            <h5>{{ speaker.speaker_name }}</h5>
-            {% if speaker.speaker_organisation or speaker.speaker_title %}<p><span class="speaker-title">{{ speaker.speaker_title}}</span> <span class="speaker-organisation">{{ speaker.speaker_organisation }}</span></p>{% endif %}
-            {% if speaker.speaker_bio %}
-            <div class="bio">{{ speaker.speaker_bio | markdownify }}</div>
-            <button class="show-bio">Bio</button>
-            {% endif %}
-        </div>
+    <div class="container">
+        {% for speaker in section.speakers %}<div class="speaker">
+            <img src="{{ speaker.speaker_photo }}" alt="Photo of {{ speaker.speaker_name }}">
+            <div class="details">
+                <h5>{{ speaker.speaker_name }}</h5>
+                {% if speaker.speaker_organisation or speaker.speaker_title %}<p><span class="speaker-title">{{ speaker.speaker_title}}</span> <span class="speaker-organisation">{{ speaker.speaker_organisation }}</span></p>{% endif %}
+                {% if speaker.speaker_bio %}<div class="bio">{{ speaker.speaker_bio | markdownify }}</div>
+                <button class="show-bio">Bio</button>{% endif %}
+            </div>
+        </div>{% endfor %}
     </div>
-{% endfor %}
 </div>
