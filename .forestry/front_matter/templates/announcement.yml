@@ -1,0 +1,18 @@
+---
+label: Announcement
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: block
+  label: block
+  default: announcement
+  hidden: true
+- type: text
+  name: announcement_text
+  label: Announcement text
+  config:
+    required: true
+- type: text
+  name: announcement_link
+  label: Announcement link
