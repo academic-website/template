@@ -489,6 +489,10 @@ body.noScroll {
     font-weight: 400;
     text-transform: uppercase;
 }
+.body-copy p,
+.body-copy li {
+    font-size: 1.2rem;
+}
 .body-copy figure.full-width {
     max-width: 100%;
 }
@@ -505,11 +509,16 @@ body.noScroll {
 /* end body copy block */
 
 /* speakers block */
-.speaker-list.two-column .container ,
 .speaker-list.five-column .container {
+    padding: 2em 3%;
+}
+.speakers {
+    margin: 1em 0;
+}
+.speaker-list.two-column .speakers ,
+.speaker-list.five-column .speakers {
     display: flex;
     flex-wrap: wrap;
-    padding: 2em 3%;
 }
 .speaker {
     min-width: 256px;
@@ -518,7 +527,7 @@ body.noScroll {
     grid-column-gap: 2em;
     margin: 0 1% 4em 1%;
 }
-.speaker img {
+.speaker-list.five-column  .speaker img {
     width: 100%;
 }
 .speaker * {
@@ -528,6 +537,13 @@ body.noScroll {
 .speaker .speaker-title {
     font-weight: bold;
     display: block;
+}
+.speaker .speaker-name {
+    margin-top: 0.5em;
+}
+.speaker-list.two-column .speaker .speaker-name ,
+.speaker-list.five-column .speaker .speaker-name {
+    margin-top: 0;
 }
 .speaker .speaker-organisation {
     font-style: italic;;

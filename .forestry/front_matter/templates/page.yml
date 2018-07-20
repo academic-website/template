@@ -23,6 +23,7 @@ fields:
   - large-headline
   - speakers
   - ticket-types
+  - announcement
 pages:
 - location.md
 - registration.md
