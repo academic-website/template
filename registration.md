@@ -5,8 +5,8 @@ date: 2018-07-19 00:00:00 +0000
 page_sections:
 - template: body-copy
   block: body-copy
-  content: "<h2>registration options</h2><p>Please find information below on all registration
-    options available, all registrations are inclusive of 10% GST.&nbsp;</p>"
+  content: "<h2>Registration options</h2><p>Please find information below on all registration
+    options available, all registrations are inclusive of 10% GST.</p>"
 - template: ticket-types
   block: ticket-types
   ticket_types:
