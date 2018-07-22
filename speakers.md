@@ -3,6 +3,9 @@ title: Speakers
 layout: page
 date: 2018-07-13 00:00:00 +0000
 page_sections:
+- template: body-copy
+  block: body-copy
+  content: "<h2>Opening keynote speaker</h2>"
 - template: speakers
   block: speaker-list
   speakers:
