@@ -10,5 +10,8 @@ page_sections:
   - date_or_time: 8.30am–10am
     free_text: "<strong>Conference registration<br></strong>Please report to registration
       desk"
+menu:
+  main:
+    weight: 1
 
 ---
