@@ -25,6 +25,7 @@ fields:
   - ticket-types
   - announcement
 pages:
+- program.md
 - registration.md
 - index.md
 - speakers.md
