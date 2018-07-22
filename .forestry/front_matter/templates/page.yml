@@ -26,6 +26,7 @@ fields:
   - announcement
   - two-column-list
 pages:
+- program.md
 - registration.md
 - index.md
 - speakers.md
