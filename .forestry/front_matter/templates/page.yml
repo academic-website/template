@@ -26,6 +26,6 @@ fields:
   - announcement
 pages:
 - registration.md
-- location.md
 - index.md
+- location.md
 - speakers.md
