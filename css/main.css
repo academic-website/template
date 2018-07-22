@@ -417,8 +417,11 @@ body.noScroll {
  * Blocks
  */
 .block .container {
-    padding: 2em 4%;
+    padding: 4em 4% 1px 4%;
     background: #fff;
+}
+.block:last-child .container {
+    padding-bottom: 4em;
 }
 .block .container > *:nth-child(1) {
     margin-top: 0;
@@ -524,50 +527,25 @@ body.noScroll {
     grid-column-gap: 2em;
     margin: 0 1% 4em 1%;
 }
-@media only screen and (min-width: 500px) {
-    .speakers.five-column .speaker {
-        width: 48%;
-        display: flex;
-        flex-direction: column;
-    }
-    .speakers.five-column .speaker {
-}
-@media only screen and (min-width: 640px) {
-    .speakers.five-column .speaker {
-        width: 31%;
-    }
-}
-@media only screen and (min-width: 800px) {
-    .speakers.five-column .speaker {
-        width: 23%;
-    }
-    .speakers.two-column .speaker {
-        width: 48%;
-    }
-}
-@media only screen and (min-width: 1000px) {
-    .speakers.five-column .speaker {
-        width: 18%;
-    }
-}
-.speakers.five-column .speaker img {
+.speaker img {
     width: 100%;
-    margin-bottom: 0.5em;
+    grid-row: span 2;
 }
 .speaker-name {
     margin-top: 0;
     font-size: 1.2em;
+    font-weight: bold;
 }
 .speaker .speaker-title {
     font-weight: bold;
     display: block;
 }
 .speaker .speaker-organisation {
-    font-style: italic;;
+    font-style: italic;
     display: block;
 }
 .speaker .show-bio {
-    display: none;
+    display: inline-block;
     font-size: 0.8em;
     padding: 0.5em 1em;
     margin: auto auto 0 0;
@@ -587,8 +565,40 @@ body.noScroll {
     display: inline-block;
     margin-top: auto;
 }
+.speakers .bio,
 .speakers.five-column .bio {
     display: none;
+}
+@media only screen and (min-width: 500px) {
+    .speaker .show-bio {
+        display: none;
+    }
+    .speaker .bio {
+        display: block;
+    }
+    .speakers.five-column .speaker {
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 640px) {
+    .speakers.five-column .speaker {
+        width: 31%;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .speakers.five-column .speaker {
+        width: 23%;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .speakers.five-column .speaker {
+        width: 18%;
+    }
+    .speakers.two-column .speaker {
+        width: 48%;
+    }
 }
 /* end speakers block */
 /* tickets block */
