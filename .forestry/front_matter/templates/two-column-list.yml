@@ -12,8 +12,8 @@ fields:
   label: Caption
   name: caption
 - type: field_group_list
-  name: row
-  label: Row
+  name: rows
+  label: Rows
   config:
     max: '100'
   fields:
