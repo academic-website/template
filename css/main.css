@@ -692,6 +692,30 @@ body.noScroll {
     margin-left: 2em;
 }
 /* end announcement block */
+/* block two-column-list */
+table.dates {
+    max-width: 750px;
+    margin: 1em auto;
+    width: 100%;
+}
+table.dates caption {
+    text-align: left;
+    font-size: 1.931em;
+    margin-bottom: 1em;
+}
+table.dates th,
+table.dates tr {
+    vertical-align: top;
+    text-align: left;
+}
+table.dates th,
+table.dates tr strong {
+    font-size: 1.2rem;
+}
+table.dates tr strong {
+    color: #038d2a;
+}
+/* end block two-column-list */
 
 /* ==========================================================================
    Helper classes
