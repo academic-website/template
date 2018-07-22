@@ -1,5 +1,5 @@
 ---
-title: Keynote speakers
+title: Speakers
 layout: page
 date: 2018-07-13 00:00:00 +0000
 page_sections:
@@ -45,6 +45,5 @@ page_sections:
 menu:
   main:
     weight: 3
-    title: Speakers
 
 ---
