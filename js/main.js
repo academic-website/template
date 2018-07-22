@@ -5,7 +5,9 @@ $(document).ready(function() {
     $(window).scroll(function() {
         if( $(this).scrollTop() > offsetTrigger )  {
             $('.main-nav').addClass('fixed');
-            $('main').css('padding-top', navHeight);
+            if (window.matchMedia("(max-width: 1140px)").matches) {
+                $('main').css('padding-top', navHeight);
+            }
         }
         else {
             $('.main-nav').removeClass('fixed');
@@ -27,7 +29,7 @@ $(document).ready(function() {
     $('.overlay, .bio').on('click', function() {
         $('.overlay').removeClass('on');
         $('body').removeClass('noScroll');
-        $('.bio').removeClass('modal').hide();
+        $('.bio.modal').removeClass('modal').hide();
     });
     /* end bio in modal */
 });
