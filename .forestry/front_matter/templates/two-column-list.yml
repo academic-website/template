@@ -1,0 +1,28 @@
+---
+label: Two column list
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: block
+  label: block
+  hidden: true
+- type: text
+  label: Caption
+  name: caption
+- type: field_group_list
+  name: row
+  label: Row
+  config:
+    max: '100'
+  fields:
+  - type: text
+    name: date_or_time
+    label: Date or Time
+  - type: textarea
+    label: Free text
+    name: free_text
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
