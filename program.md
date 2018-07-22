@@ -12,6 +12,6 @@ page_sections:
       desk"
 menu:
   main:
-    weight: 1
+    weight: 5
 
 ---
