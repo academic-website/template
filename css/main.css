@@ -702,17 +702,20 @@ table.dates caption {
     text-align: left;
     font-size: 1.931em;
     margin-bottom: 1em;
+    font-weight: 300;
 }
 table.dates th,
-table.dates tr {
+table.dates td {
     vertical-align: top;
     text-align: left;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid #f4f4f4;
 }
 table.dates th,
-table.dates tr strong {
+table.dates td strong {
     font-size: 1.2rem;
 }
-table.dates tr strong {
+table.dates td strong {
     color: #038d2a;
 }
 /* end block two-column-list */
