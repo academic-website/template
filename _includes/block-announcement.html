@@ -1,5 +1,5 @@
 <div class="block announcement">
     <div class="container">
-        <p>{{ section.announcement_text }}{% if section. announcement_link %} <a class="button" href="{{ section. announcement_link }}">Go</a>{% endif %}</p>
+        <p>{{ section.announcement_text }}{% if section. announcement_link %} <a class="button" href="{{ section. announcement_link }}">{% if section. announcement_linklabel %}{{ announcement_link_label }}{% else %}Go{% endif %}</a>{% endif %}</p>
     </div>
 </div>
