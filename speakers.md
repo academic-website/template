@@ -20,7 +20,7 @@ page_sections:
   display: One per row
 - template: body-copy
   block: body-copy
-  content: "<h2>Other key speakers</h2>"
+  content: "<h2>Other speakers of note</h2>"
 - template: speakers
   block: speaker-list
   speakers:
