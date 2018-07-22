@@ -10,6 +10,9 @@ page_sections:
   - date_or_time: 8.30am–10am
     free_text: "<strong>Conference registration<br></strong>Please report to registration
       desk"
+  - date_or_time: 10am–11am
+    free_text: "<strong>Conference Opening<br><br></strong>Welcome from the Conference
+      chair - Mr Conference Chair"
 menu:
   main:
     weight: 5
