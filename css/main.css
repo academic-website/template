@@ -136,6 +136,12 @@ img {
 main {
     margin-bottom: 4em;
 }
+@media only screen and (min-width: 1140px) {
+    main {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
 main .page-title {
     padding: 10px 4%;
     max-width: 1300px;
@@ -414,14 +420,8 @@ body.noScroll {
     padding: 2em 4%;
     background: #fff;
 }
-@media only screen and (min-width: 1140px) {
-    .block .container {
-        margin-left: 2em;
-        margin-right: 2em;
-    }
-}
-.block .container *:first-child {
-    /*margin-top: 0;*/
+.block .container > *:nth-child(1) {
+    margin-top: 0;
 }
 /* large healine block */
 .large-headline p {
@@ -464,7 +464,7 @@ body.noScroll {
     color: red;
 }
 .body-copy h2 {
-    margin: 2em auto 0 auto;
+    margin: 1em auto 0 auto;
     font-size: 3.125em;
     font-weight: 300;
 }
@@ -509,41 +509,58 @@ body.noScroll {
 /* end body copy block */
 
 /* speakers block */
-.speaker-list.five-column .container {
-    padding: 2em 3%;
-}
 .speakers {
-    margin: 1em 0;
+    margin: 2em 0;
 }
-.speaker-list.two-column .speakers ,
-.speaker-list.five-column .speakers {
+.speakers.two-column,
+.speakers.five-column {
     display: flex;
     flex-wrap: wrap;
 }
 .speaker {
-    min-width: 256px;
+    width: 98%;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 2em;
     margin: 0 1% 4em 1%;
 }
-.speaker-list.five-column  .speaker img {
-    width: 100%;
+@media only screen and (min-width: 500px) {
+    .speakers.five-column .speaker {
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+    }
+    .speakers.five-column .speaker {
 }
-.speaker * {
-    margin-left: 0;
-    margin-right: 0;
+@media only screen and (min-width: 640px) {
+    .speakers.five-column .speaker {
+        width: 31%;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .speakers.five-column .speaker {
+        width: 23%;
+    }
+    .speakers.two-column .speaker {
+        width: 48%;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .speakers.five-column .speaker {
+        width: 18%;
+    }
+}
+.speakers.five-column .speaker img {
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+.speaker-name {
+    margin-top: 0;
+    font-size: 1.2em;
 }
 .speaker .speaker-title {
     font-weight: bold;
     display: block;
-}
-.speaker .speaker-name {
-    margin-top: 0.5em;
-}
-.speaker-list.two-column .speaker .speaker-name ,
-.speaker-list.five-column .speaker .speaker-name {
-    margin-top: 0;
 }
 .speaker .speaker-organisation {
     font-style: italic;;
@@ -553,7 +570,7 @@ body.noScroll {
     display: none;
     font-size: 0.8em;
     padding: 0.5em 1em;
-    margin-top: auto;
+    margin: auto auto 0 0;
 }
 .speaker .show-bio::after {
     display: inline-block;
@@ -564,23 +581,17 @@ body.noScroll {
     content: "\f2bb";
     font-family: "Font Awesome 5 Free";
     margin-left: 10px;
+    font-weight: 900;
 }
-.speaker-list.two-column .speaker {
-    width: 48%;
-}
-.speaker-list.five-column .speaker {
-    width: 18%;
-    display: flex;
-    flex-direction: column;
-}
-.speaker-list.five-column .speaker .show-bio {
+.speakers.five-column .speaker .show-bio {
     display: inline-block;
     margin-top: auto;
 }
-.speaker-list.five-column .bio {
+.speakers.five-column .bio {
     display: none;
 }
-
+/* end speakers block */
+/* tickets block */
 .ticket-types .container {
     padding: 2em 3%;
 }
@@ -592,16 +603,27 @@ body.noScroll {
     justify-content: center;
 }
 .tickets .ticket {
-    min-width: 225px;
-    width: 30%;
+    width: 100%;
     margin: 0 1% 2em 1%;
     box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
 }
-.tickets.max-4-per-row .ticket {
-    width: 23%;
+@media only screen and (min-width: 500px) {
+    .tickets .ticket {
+        width: 48%;
+    }
 }
-.tickets.max-5-per-row .ticket {
-    width: 18%;
+@media only screen and (min-width: 900px) {
+    .tickets .ticket {
+        width: 31%;
+    }
+}
+@media only screen and (min-width: 1140px) {
+    .tickets.max-4-per-row .ticket {
+        width: 23%;
+    }
+    .tickets.max-5-per-row .ticket {
+        width: 18%;
+    }
 }
 .ticket {
     display: flex;
@@ -628,8 +650,38 @@ body.noScroll {
     padding: 1.5em 2em 0 2em;
 }
 .general-purchase {
-    text-align: center;;
+    text-align: center;
 }
+/* end tickets block */
+/* announcement block */
+
+.announcement p {
+    border: 1px dashed #666;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.announcement p::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    content: "\f0a1";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 2em;
+    font-weight: 900;
+    font-size: 1.5em;
+    color: #ec455a;
+}
+.announcement .button {
+    margin-left: 2em;
+}
+/* end announcement block */
 
 /* ==========================================================================
    Helper classes
