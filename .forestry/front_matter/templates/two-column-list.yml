@@ -24,6 +24,6 @@ fields:
     label: Free text
     name: free_text
     config:
-      wysiwyg: false
+      wysiwyg: true
       schema:
-        format: markdown
+        format: html
