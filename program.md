@@ -8,5 +8,6 @@ page_sections:
   row:
   - date_or_time: 8:30am–9:30am
     free_text: Registration Opens
+  caption: Day 1
 
 ---
