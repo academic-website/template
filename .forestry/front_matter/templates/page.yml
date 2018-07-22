@@ -24,6 +24,7 @@ fields:
   - speakers
   - ticket-types
   - announcement
+  - two-column-list
 pages:
 - registration.md
 - index.md
