@@ -12,5 +12,11 @@ page_sections:
     free_text: "<strong>Conference opening</strong><br>Minister for good conference
       coffee - Mr Cacao Bean  "
   caption: Day 1
+  rows:
+  - date_or_time: 8.30am–10am
+    free_text: "<strong>Registration Opens</strong>"
+  - date_or_time: 10am–11am
+    free_text: "<strong>Conference opening<br></strong>Minister for good conference
+      coffee: Mr Cacao Bean "
 
 ---
