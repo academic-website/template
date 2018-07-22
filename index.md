@@ -2,6 +2,10 @@
 title: Home
 layout: page
 page_sections:
+- template: announcement
+  block: announcement
+  announcement_text: Registration closing soon - August 8 2020
+  announcement_link: "/registration/"
 - template: large-headline
   block: large-headline
   large_headline: 'The premier conference for conference mangers and and evangelists
