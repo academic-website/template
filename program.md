@@ -6,8 +6,11 @@ page_sections:
 - template: two-column-list
   block: two-column-list
   row:
-  - date_or_time: 8:30am–9:30am
-    free_text: Registration Opens
+  - date_or_time: 8:30am–10:00am
+    free_text: "<strong>Registration Opens<br></strong>"
+  - date_or_time: 10am–11am
+    free_text: "<strong>Conference opening</strong><br>Minister for good conference
+      coffee - Mr Cacao Bean  "
   caption: Day 1
 
 ---
