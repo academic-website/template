@@ -1,9 +1,11 @@
 <div class="block two-column-list">
-    <table class="dates">
-        {% if section.caption %}<caption>{{ section.caption }}</caption>{% endif %}
-        {% for row in section.rows %}<tr>
-            <td>{{ row.date_or_time }}</td>
-            <td>{{ row.free_text }}</td>
-        </tr>{% endfor %}
-    </table>
+    <div class="container">
+        <table class="dates">
+            {% if section.caption %}<caption>{{ section.caption }}</caption>{% endif %}
+            {% for row in section.rows %}<tr>
+                <td>{{ row.date_or_time }}</td>
+                <td>{{ row.free_text }}</td>
+            </tr>{% endfor %}
+        </table>
+    </div>
 </div>
