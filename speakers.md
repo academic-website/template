@@ -24,21 +24,19 @@ page_sections:
 - template: speakers
   block: speaker-list
   speakers:
-  - speaker_photo: "/template/uploads/2018/07/13/ursula-wingate---x----250-306x---.jpg"
-    speaker_name: Ursula Wingate
-    speaker_title: Senior Lecturer in Language in Education
-    speaker_bio: 'Ursula Wingate is Senior Lecturer in Language in Education and works
-      in the School of Education, Communication and Society at King’s College London.
-      Ursula’s research interests are in academic literacy, English language policies
-      and practices, and language teaching methodology. Ursula has developed and evaluated
-      various genre-based approaches to teaching academic literacy in higher education.
-      Her publications are concerned with the theoretical models underpinning literacy
-      instruction, the impact of formative feedback on academic writing, and the teaching
-      and learning of argumentation. In her recent book ‘Academic Literacy and Student
-      Diversity: The Case for Inclusive Practice’, Ursula promotes a curriculum-embedded
-      collaborative model of academic literacy instruction that is inclusive of students
-      from all backgrounds.'
-    speaker_organisation: King’s College London
+  - speaker_photo: "/template/uploads/2018/07/22/avatar.jpg"
+    speaker_name: Ursula Andrews
+    speaker_title: Event Organiser to the Stars
+    speaker_bio: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+      posuere cubilia Curae; Praesent molestie orci nisi, vel congue lectus rutrum
+      a. Phasellus blandit elementum ligula, fringilla convallis odio pharetra id.
+      Mauris dignissim eros sed molestie interdum. Etiam vehicula fringilla massa
+      non sodales. Fusce nisl sapien, luctus non odio id, feugiat feugiat eros. Morbi
+      ac nibh egestas lorem euismod pulvinar. Suspendisse dictum finibus metus ut
+      tincidunt. Vivamus finibus ultrices libero a faucibus. Pellentesque auctor ut
+      nibh et tincidunt. Suspendisse sapien libero, hendrerit eu neque in, dictum
+      porta libero. Aliquam ut quam at magna volutpat suscipit.
+    speaker_organisation: UAevents
   - speaker_name: Lucy Schulz
     speaker_title: ''
     speaker_bio: "Lucy Schulz is Director of Deakin University’s Cloud Campus.  Prior
