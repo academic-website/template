@@ -3,10 +3,6 @@ title: Registration
 layout: page
 date: 2018-07-19 00:00:00 +0000
 page_sections:
-- template: announcement
-  block: announcement
-  announcement_text: Registration closing soon - August 8 2020
-  announcement_link: http://gothere.com
 - template: body-copy
   block: body-copy
   content: "<h2>Registration options</h2><p>Please find information below on all registration
