@@ -1,0 +1,10 @@
+<div class="block two-column-list">
+    <table class="dates">
+        {% if section.caption %}<caption>{{ section.caption }}</caption>
+        {% for row in section.rows %}<div class="speaker">
+        <tr>
+            <td>{{ row.date_or_time }}</td>
+            <td>{{ row.free_text }}</td>
+        </tr>
+    </table>
+</div>
