@@ -7,7 +7,7 @@ fields:
   name: block
   label: block
   hidden: true
-  default: two-column-list
+  default: date-table
 - type: text
   label: Table caption
   name: caption
