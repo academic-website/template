@@ -13,7 +13,7 @@ fields:
   label: Videos
   config:
     max: '10'
-  description: Embed YouTube or Vimeo video(s)
+  description: Embed one or more YouTube or Vimeo video(s)
   fields:
   - type: text
     name: share_link
