@@ -9,8 +9,9 @@ fields:
   hidden: true
   default: two-column-list
 - type: text
-  label: Caption
+  label: Table caption
   name: caption
+  description: This optional caption will appear above the table
 - type: field_group_list
   name: rows
   label: Rows
