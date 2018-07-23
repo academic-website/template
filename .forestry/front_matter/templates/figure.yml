@@ -14,9 +14,6 @@ fields:
 - type: text
   name: caption
   label: Caption
-- type: boolean
-  name: display_full_width
-  label: Display full width
 - type: text
   name: attribution
   label: Attribution text for images used under permission such as Creative Commons
