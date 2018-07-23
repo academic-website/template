@@ -15,7 +15,6 @@ page_sections:
   block: video-embed
   videos:
   - share_link: https://vimeo.com/185276955
-  - share_link: https://youtu.be/Cfq0d5Xf5ls
 - template: body-copy
   block: body-copy
   content: "<h2>Heading 2</h2><p>Paragraph, hello I'm a paragraph. I hope you are
