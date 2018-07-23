@@ -22,3 +22,7 @@ fields:
       this from the share button.
     config:
       required: true
+  - type: text
+    name: caption
+    label: Caption
+    description: Caption to show under video.
