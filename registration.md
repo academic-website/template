@@ -16,8 +16,6 @@ page_sections:
 
       **Standard $495**
 
-      ### Includes
-
       * Full conference program
       * All social functions
     purchase_link: https://www.etouches.com/216893
