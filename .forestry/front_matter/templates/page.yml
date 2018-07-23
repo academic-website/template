@@ -24,7 +24,7 @@ fields:
   - people
   - ticket-types
   - announcement
-  - two-column-list
+  - date-table
 pages:
 - program.md
 - registration.md
