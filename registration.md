@@ -39,7 +39,7 @@ page_sections:
     ticket_details: For organisations who register 5 or more staff with full registrations
       at the one time a 10% registration discount will be made available at the time
       of payment. 
-  purchase_link: https://www.etouches.com/216893
+  purchase_link: http://example.org/
   max_per_row: '3'
   purchase_link_label: Get your tickets now
 menu:
