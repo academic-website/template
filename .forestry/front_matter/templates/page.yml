@@ -25,6 +25,7 @@ fields:
   - ticket-types
   - announcement
   - date-table
+  - video-embed
 pages:
 - program.md
 - index.md
