@@ -2,9 +2,7 @@
     <div class="container">
         <figure {% if section.display_full_width %}class="full-width"{% endif %}>
           <img src="{{ section.image | relative_url }}" alt="{{ section.caption }}">
-          {% if section.caption %}
-          <figcaption>{{ section.caption }}</figcaption>
-          {% endif %}
+          {% if section.caption %}<figcaption{% if section.attribution %} class="attribution"{% endif %}>{{ section.caption }}{% if section.attribution %} <span>{{ section.attribution }}</span>{% endif %}</figcaption>{% endif %}
         </figure>
     </div>
 </div>

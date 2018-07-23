@@ -136,16 +136,18 @@ img {
 main {
     margin-bottom: 4em;
 }
-@media only screen and (min-width: 1140px) {
-    main {
-        margin-left: 2em;
-        margin-right: 2em;
-    }
-}
 main .page-title {
     padding: 10px 4%;
     max-width: 1300px;
     margin: 0 auto;
+    background-color: #f4f4f4;
+}
+@media only screen and (min-width: 1140px) {
+    main .page-title,
+    .block {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
 }
 
 main h1 {
@@ -185,7 +187,43 @@ h6 {
 }
 figure {
   text-align: center;
+  margin-left: 0;
+  margin-right: 0;
 }
+figcaption.attribution {
+  position: relative;
+  cursor: pointer;
+}
+figcaption.attribution::after {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  content: "\f4e7";
+  font-family: "Font Awesome 5 Brands";
+  margin-left: 10px;
+  font-weight: 400;
+}
+figcaption span {
+  display: inline-block;
+  border: 1px solid #fc0;
+  padding: 3px 6px;
+  background: #fffea1;
+  content: attr(data-title);
+  position: absolute;
+  min-width: 300px;
+  max-width: 750px;
+  word-break: break-word;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+figcaption.attribution:hover span {
+  opacity: 100;
+}
+
 /*
  * site header styles
  */
@@ -430,11 +468,11 @@ body.noScroll {
     padding: 4em 4% 1px 4%;
     background: #fff;
 }
-.block:last-child .container {
-    padding-bottom: 4em;
-}
 .block .container > *:nth-child(1) {
     margin-top: 0;
+}
+.block:last-child .container {
+    padding-bottom: 4em;
 }
 /* large healine block */
 .large-headline p {
