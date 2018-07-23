@@ -6,7 +6,7 @@ page_sections:
 - template: body-copy
   block: body-copy
   content: "<h2>Opening keynote speaker</h2>"
-- template: speakers
+- template: people
   block: person-list
   people:
   - person_photo: "/template/uploads/2018/07/22/avatar.jpg"
