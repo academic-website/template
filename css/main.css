@@ -783,6 +783,12 @@ table.dates td strong {
     width: 98%;
     margin: 0 1% 0 1%;
 }
+.vid-wrapper figcaption {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    margin-bottom: 1em;
+}
 @media only screen and (min-width: 700px) {
     .video {
         width: 48%;
