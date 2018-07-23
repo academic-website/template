@@ -15,6 +15,7 @@ page_sections:
   block: video-embed
   videos:
   - share_link: https://youtu.be/Cfq0d5Xf5ls
+    caption: Lonely Planet Melbourne Video
   - share_link: https://vimeo.com/185276955
 - template: body-copy
   block: body-copy
