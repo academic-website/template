@@ -26,8 +26,6 @@ page_sections:
 
       **Standard** $540
 
-      ### Includes
-
       * Full conference program
       * All social functions
   - ticket_name: Virtual Registrations
