@@ -164,23 +164,23 @@ h6 {
 }
 h2 {
     font-size: 1.424em;
-    font-weight: 300;
+    font-weight: 400;
 }
 h3 {
     font-size: 1.266em;
-    font-weight: 300;
+    font-weight: 400;
 }
 h4 {
     font-size: 1.125em;
-    font-weight: 400;
+    font-weight: bold;
 }
 h5 {
-    font-size: 1.618em;
-    font-weight: 400;
+    font-size: 1em;
+    font-weight: bold;
 }
 h6 {
-    font-size: 1em;
-    font-weight: 400;
+    font-size: 0.889em;
+    font-weight: bold;
     text-transform: uppercase;
 }
 figure {
@@ -489,6 +489,10 @@ body.noScroll {
         font-size: 3em;
     }
 }
+.block h1:after {
+    content: " - H1 reserved for page title, please change to h2 or lower";
+    color: red;
+}
 /* end large healine block */
 /* body copy block*/
 .body-copy h1,
@@ -511,27 +515,23 @@ body.noScroll {
     margin-bottom: 1em;
     background-color: yellow;
 }
-.body-copy .block h1:after {
-    content: " - H1 reserved for page title, please change to h2";
-    color: red;
-}
 .body-copy h2 {
     margin: 1em auto 0 auto;
     font-size: 3.125em;
     font-weight: 300;
 }
 .body-copy h3 {
-    margin: 2em auto 0 auto;
+    margin: 1.5em auto 0 auto;
     font-size: 2.618em;
     font-weight: 300;
 }
 .body-copy h4 {
-    margin: 1.5em auto 0 auto;
+    margin: 2em auto 0 auto;
     font-size: 1.931em;
     font-weight: 400;
 }
 .body-copy h5 {
-    margin: 1.5em auto 0 auto;
+    margin: 2em auto 0 auto;
     font-size: 1.618em;
     font-weight: 400;
 }
@@ -702,6 +702,10 @@ body.noScroll {
 }
 .ticket-details {
     padding: 1em 2em;
+}
+.ticket-details strong {
+    font-size: 1.2rem;
+    color: #038d2a;
 }
 .ticket footer {
     margin-top:auto;
