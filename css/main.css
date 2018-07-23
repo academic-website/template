@@ -781,7 +781,7 @@ table.dates td strong {
 }
 .video {
     width: 98%;
-    margin: 0 1% 1em 1%;
+    margin: 0 1% 0 1%;
 }
 @media only screen and (min-width: 700px) {
     .video {
