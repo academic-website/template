@@ -27,7 +27,7 @@ fields:
   - date-table
 pages:
 - program.md
-- registration.md
 - index.md
 - speakers.md
+- registration.md
 - location.md
