@@ -3,7 +3,7 @@
         <div class="videos">
             {% for video in section.videos %}
             <div class="vid-wrapper">
-                {% if video.share_link contains 'youtu.be' %}<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video.share_link | remove: 'https://youtu.be/' }}?rel=0" frameborder="0" allowfullscreen></iframe>{% elsif video.share_link contains 'vimeo' %}<iframe src="https://player.vimeo.com/video/{{ video.share_link | remove: 'https://vimeo.com/' }}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>{% endif %}
+                {% if video.share_link contains "youtu.be" %}<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video.share_link | remove: "https://youtu.be/" }}?rel=0" frameborder="0" allowfullscreen></iframe>{% elsif video.share_link contains "vimeo" %}<iframe src="https://player.vimeo.com/video/{{ video.share_link | remove: "https://vimeo.com/" }}" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>{% endif %}
             </div>
             {% endfor %}
         </div>
