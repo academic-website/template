@@ -20,12 +20,12 @@ page_sections:
       $540**\n\nIncludes:\n\n* Full conference program\n* All social functions"
   - ticket_name: Virtual Registrations
     ticket_details: |-
-      **Virtual Registrations** $250
+      **Virtual Registrations $250**
 
       This will offer a single stream of presentations only and be limited to 100 participants. Virtual sessions will be scheduled across all days of the conference.
   - ticket_name: Day Registration
     ticket_details: |-
-      **Day Registration** $250
+      **Day Registration $250**
 
       Single day registration only, may not be used to attend multiple days. This registration does not include Social Events, tickets may be purchased to attend these events.
   - ticket_name: Group Registrations
