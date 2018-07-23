@@ -11,10 +11,8 @@ page_sections:
   block: ticket-types
   ticket_types:
   - ticket_name: Member Registrations
-    ticket_details: "# Heading 1\n\n## Heading 2\n\n### Heading 3\n\n#### Heading
-      4\n\n##### Heading 5\n\n###### Heading 6\n\n**Early Bird $440**  \n\\(closes
-      September 15th, 2017)\n\n**Standard $495**\n\nIncludes:\n\n* Full conference
-      program\n* All social functions"
+    ticket_details: "**Early Bird $440**  \n\\(closes September 15th, 2017)\n\n**Standard
+      $495**\n\nIncludes:\n\n* Full conference program\n* All social functions"
     purchase_link: ''
     purchase_link_label: 
   - ticket_name: Non Member Registrations
