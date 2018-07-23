@@ -16,15 +16,8 @@ page_sections:
     purchase_link: ''
     purchase_link_label: 
   - ticket_name: Non Member Registrations
-    ticket_details: |-
-      **Early Bird** $470 (closes September 15th, 2017)
-
-      **Standard** $540
-
-      Includes:
-
-      * Full conference program
-      * All social functions
+    ticket_details: "**Early Bird $470**   \n\\(closes September 15th, 2017)\n\n**Standard
+      $540**\n\nIncludes:\n\n* Full conference program\n* All social functions"
   - ticket_name: Virtual Registrations
     ticket_details: |-
       **Virtual Registrations** $250
