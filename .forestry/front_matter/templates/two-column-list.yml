@@ -21,7 +21,7 @@ fields:
     name: date_or_time
     label: Date or Time
   - type: textarea
-    label: Free text
+    label: Description
     name: free_text
     config:
       wysiwyg: true
