@@ -18,6 +18,10 @@ page_sections:
     is good</p></li></ol><p>This is is not so hard.</p><h4>Heading 4</h4><p>This is
     fun</p><blockquote><p>This is a quote</p></blockquote><h5>Heading 5 </h5><p>Hope
     this looks ok</p><h6>Heading 6</h6><p>More headings for you </p>"
+- template: video-embed
+  block: video-embed
+  videos:
+  - share_link: https://youtu.be/Cfq0d5Xf5ls
 date: 2018-07-08 14:00:00 +0000
 menu:
   main:

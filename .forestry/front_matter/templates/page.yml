@@ -28,7 +28,7 @@ fields:
   - video-embed
 pages:
 - program.md
-- index.md
 - speakers.md
 - registration.md
+- index.md
 - location.md
