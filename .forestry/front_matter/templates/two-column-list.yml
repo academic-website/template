@@ -22,7 +22,7 @@ fields:
     name: date_or_time
     label: Date or time
   - type: textarea
-    label: Description
+    label: 'Description '
     name: free_text
     config:
       wysiwyg: true
