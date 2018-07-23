@@ -770,6 +770,29 @@ table.dates td strong {
     color: #038d2a;
 }
 /* end block two-column-list */
+/* block videos */
+.video-embed .container {
+    padding: 4em 3% 1px 3%;
+}
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.video {
+    width: 98%;
+    margin: 0 1% 1em 1%;
+}
+@media only screen and (min-width: 700px) {
+    .video {
+        width: 48%;
+    }
+    .video.wide {
+        width: 98%;
+        max-width: 750px;
+    }
+}
+/* end block videos */
 
 /* ==========================================================================
    Helper classes
