@@ -20,7 +20,7 @@ fields:
   fields:
   - type: text
     name: date_or_time
-    label: Date or Time
+    label: Date or time
   - type: textarea
     label: Description
     name: free_text
