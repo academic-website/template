@@ -50,6 +50,7 @@ fields:
     - '4'
     - '5'
   label: Maximum types per row
+  description: Choose how many ticket type cards to show in one row
 - type: text
   name: purchase_link
   label: Purchase link
