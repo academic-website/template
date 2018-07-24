@@ -7,6 +7,7 @@ page_sections:
   announcement_text: Registration closing soon - August 8 2020
   announcement_link: "/template/registration"
   announcement_link_label: Register now
+  hide: true
 - template: large-headline
   block: large-headline
   large_headline: 'The premier conference for conference mangers and and evangelists
