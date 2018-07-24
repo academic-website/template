@@ -41,3 +41,7 @@ fields:
         format: markdown
     label: Column content
     name: column_content
+- type: boolean
+  name: text_align_center
+  label: Text align center
+  description: If you want the text in your columns to be center aligned
