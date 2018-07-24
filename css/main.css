@@ -748,7 +748,8 @@ body.noScroll {
 }
 .announcement .button {
     margin: 0.5em auto 0.5em auto;
-
+    grid-row: 2;
+    grid-column: 1 / -1;
 }
 @media only screen and (min-width: 500px) {
     .announcement p {
@@ -756,6 +757,12 @@ body.noScroll {
     }
     .announcement p::before {
         display: inline-block;
+    }
+}
+@media only screen and (min-width: 640px) {
+    .announcement .button {
+        grid-row: auto;
+        grid-column: auto;
     }
 }
 /* end announcement block */
