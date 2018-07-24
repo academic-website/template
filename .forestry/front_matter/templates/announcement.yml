@@ -19,3 +19,7 @@ fields:
 - type: text
   name: announcement_link_label
   label: Announcement link label
+- type: boolean
+  name: hide
+  label: Hide
+  description: If you want this block not to show but don't want to delete it
