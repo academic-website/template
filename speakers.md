@@ -27,15 +27,15 @@ page_sections:
   - person_photo: "/template/uploads/2018/07/22/avatar.jpg"
     person_name: Ursula Andrews
     person_title: Event Organiser to the Stars
-    person_bio: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-      posuere cubilia Curae; Praesent molestie orci nisi, vel congue lectus rutrum
-      a. Phasellus blandit elementum ligula, fringilla convallis odio pharetra id.
-      Mauris dignissim eros sed molestie interdum. Etiam vehicula fringilla massa
-      non sodales. Fusce nisl sapien, luctus non odio id, feugiat feugiat eros. Morbi
-      ac nibh egestas lorem euismod pulvinar. Suspendisse dictum finibus metus ut
-      tincidunt. Vivamus finibus ultrices libero a faucibus. Pellentesque auctor ut
-      nibh et tincidunt. Suspendisse sapien libero, hendrerit eu neque in, dictum
-      porta libero. Aliquam ut quam at magna volutpat suscipit.
+    person_bio: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+      cubilia Curae; Praesent molestie orci nisi, vel congue lectus rutrum a. Phasellus
+      blandit elementum ligula, fringilla convallis odio pharetra id. Mauris dignissim
+      eros sed molestie interdum. Etiam vehicula fringilla massa non sodales. Fusce
+      nisl sapien, luctus non odio id, feugiat feugiat eros. Morbi ac nibh egestas
+      lorem euismod pulvinar. Suspendisse dictum finibus metus ut tincidunt. Vivamus
+      finibus ultrices libero a faucibus. Pellentesque auctor ut nibh et tincidunt.
+      Suspendisse sapien libero, hendrerit eu neque in, dictum porta libero. Aliquam
+      ut quam at magna volutpat suscipit.
     person_organisation: UAevents
   - person_name: Lucky Lane
     person_title: ''
