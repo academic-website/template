@@ -14,7 +14,7 @@ page_sections:
     on the following themes are invited with further detailed information on each
     theme listed below.</p><ul><li><p>Coffee, content or after parties</p></li><li><p>Location
     and facilities</p></li><li><p>Marketing</p></li></ul><p>Abstracts are available
-    for submission until April 21st, 2020 .</p><h2>Submission guidelines</h2><p>The
+    for submission until April 21st, 2020.</p><h2>Submission guidelines</h2><p>The
     following formats for presentations will be considered:</p><h3>Workshops</h3><p>A
     50 minute collaborative session which may consist of multiple presenters:</p><ul><li><p>a
     themed panel discussion<strong> </strong>in which multiple presenters explore
