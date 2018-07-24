@@ -595,8 +595,10 @@ body.noScroll {
     display: block;
 }
 .person .person-organisation {
-    font-style: italic;
     display: block;
+    color: #038d2a;
+    text-transform: uppercase;
+    font-size: smaller;
 }
 .person .show-bio {
     display: inline-block;
