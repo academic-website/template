@@ -154,7 +154,7 @@ main .page-title h1 {
     margin: 0.5em 0;
     font-weight: 300;
     font-style: italic;
-
+    line-height: 1;
 }
 h1,
 h2,
@@ -475,11 +475,11 @@ body.noScroll {
  * Blocks
  */
 .block .container {
-    padding: 4em 4% 1px 4%;
+    padding: 1px 4% 1px 4%;
     background: #fff;
 }
 .block .container > *:nth-child(1) {
-    margin-top: 0;
+    /* margin-top: 0; */
 }
 .block:last-child .container {
     padding-bottom: 4em;
@@ -554,6 +554,7 @@ body.noScroll {
 .body-copy p,
 .body-copy li {
     font-size: 1.2rem;
+    color: rgba(14,30,37,.8);
 }
 .body-copy figure.full-width {
     max-width: 100%;
@@ -663,7 +664,7 @@ body.noScroll {
 /* end people block */
 /* tickets block */
 .ticket-types .container {
-    padding: 2em 3%;
+    padding: 1px 3%;
 }
 .tickets {
     padding: 0;
@@ -731,8 +732,7 @@ body.noScroll {
 .announcement p {
     border: 1px dashed #666;
     max-width: 750px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 2em auto;
     padding: 1em;
     display: grid;
     align-items: center;
@@ -801,7 +801,7 @@ table.dates td strong {
 /* end block two-column-list */
 /* block videos */
 .video-embed .container {
-    padding: 4em 3% 1px 3%;
+    padding: 1px 3%;
 }
 .videos {
     display: flex;
@@ -830,7 +830,7 @@ table.dates td strong {
 /* end block videos */
 /* block three columns */
 .three-column .container {
-    padding: 2em 3%;
+    padding: 1px 3%;
 }
 .columns {
     display: flex;
