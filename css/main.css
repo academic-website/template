@@ -224,6 +224,10 @@ figcaption.attribution:hover span {
   opacity: 100;
 }
 
+.text-align-center {
+    text-align: center;
+}
+
 /*
  * site header styles
  */
@@ -824,6 +828,34 @@ table.dates td strong {
     }
 }
 /* end block videos */
+/* block three columns */
+.three-column .container {
+    padding: 2em 3%;
+}
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.columns .column {
+    width: 100%;
+    margin: 0 1% 2em 1%;
+    /* box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24); */
+}
+.columns .column img {
+    display: block;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 500px) {
+    .columns .column {
+        width: 48%;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .columns .column {
+        width: 31%;
+    }
+}
 
 /* ==========================================================================
    Helper classes
