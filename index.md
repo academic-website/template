@@ -15,7 +15,7 @@ page_sections:
   block: body-copy
   content: <h2>Overview</h2><p>The ACME 2020 conference theme is 'Make your event
     great again'.</p><p>We will be accepting submissions very soon—see the <a href="/template/call-for-papers/"
-    title="">Call for pages</a> page for details.</p><p>The conference will include:</p>
+    title="">Call for papers</a> page for details.</p><p>The conference will include:</p>
 - template: three-columns
   block: three-column
   column_1:
