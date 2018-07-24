@@ -21,11 +21,12 @@ fields:
   - body-copy
   - figure
   - large-headline
+  - video-embed
+  - announcement
+  - three-columns
   - people
   - ticket-types
-  - announcement
   - date-table
-  - video-embed
 pages:
 - program.md
 - speakers.md
