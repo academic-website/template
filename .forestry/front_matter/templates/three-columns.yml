@@ -1,0 +1,43 @@
+---
+label: Three columns
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  default: three-column
+  label: block
+  name: block
+  hidden: true
+- type: field_group
+  name: column_1
+  label: Column 1
+  fields:
+  - type: textarea
+    name: column_content
+    label: Column content
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+- type: field_group
+  name: column_2
+  label: Column 2
+  fields:
+  - type: textarea
+    name: column_content
+    label: Column content
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+- type: field_group
+  name: column_3
+  label: Column 3
+  fields:
+  - type: textarea
+    config:
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Column content
+    name: column_content
