@@ -44,6 +44,9 @@ page_sections:
   - share_link: https://youtu.be/Cfq0d5Xf5ls
     caption: Lonely Planet Melbourne Video
   - share_link: https://vimeo.com/185276955
+- template: body-copy
+  block: body-copy
+  content: "<h2>Conference sponsors</h2>"
 date: 2018-07-08 14:00:00 +0000
 menu:
   main:
