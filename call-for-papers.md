@@ -29,6 +29,7 @@ page_sections:
     of up to 500 words is required as part of the submission process.</p>
 menu:
   main:
-    weight: 4
+    weight: 1
+    parent: item_cX4XiDQ
 
 ---

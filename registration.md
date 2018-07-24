@@ -37,6 +37,6 @@ page_sections:
   purchase_link_label: Get your tickets now
 menu:
   main:
-    weight: 5
+    weight: 4
 
 ---
