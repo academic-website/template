@@ -11,6 +11,11 @@ page_sections:
   block: large-headline
   large_headline: 'The premier conference for conference mangers and and evangelists
     is on again in 2020 '
+- template: body-copy
+  block: body-copy
+  content: <h2>Overview</h2><p>The ACME 2020 conference theme is 'Make your event
+    great again'.</p><p>We will be accepting submissions very soon—see the <a href="/template/call-for-papers/"
+    title="">Call for pages</a> page for details.</p><p>The conference will include:</p>
 - template: three-columns
   block: three-column
   column_1:
