@@ -150,7 +150,7 @@ main .page-title .container {
 
 main .page-title h1 {
     font-size: 2em;
-    font-size: calc(32px + (48 - 32) * ((100vw - 320px) / (1139 - 320)));
+    font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (1139 - 320)));
     margin: 0.5em 0;
     font-weight: 300;
     font-style: italic;
