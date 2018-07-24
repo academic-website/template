@@ -11,6 +11,23 @@ page_sections:
   block: large-headline
   large_headline: 'The premier conference for conference mangers and and evangelists
     is on again in 2020 '
+- template: three-columns
+  block: three-column
+  column_1:
+    column_content: |-
+      ![](/template/uploads/2018/07/24/keynote.svg)
+
+      ### Keynotes
+  column_2:
+    column_content: |-
+      ![](/template/uploads/2018/07/24/presentation.svg)
+
+      ### Paper and poster presentations
+  column_3:
+    column_content: |-
+      ![](/template/uploads/2018/07/24/workshop.svg)
+
+      ### Workshops
 - template: body-copy
   block: body-copy
   content: "<h2>Venue</h2><p>The conference will be taking place at the beautiful
