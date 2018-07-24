@@ -29,7 +29,7 @@ page_sections:
     of up to 500 words is required as part of the submission process.</p>
 menu:
   main:
-    weight: 1
+    weight: 2
 published: false
 
 ---
