@@ -389,6 +389,9 @@ figcaption.attribution:hover span {
         margin-top: -90px;
     }
 }
+.main-nav .mobile-menu-button {
+    display: none;
+}
 /* end main nav */
 /* end site header styles */
 
@@ -724,10 +727,11 @@ body.noScroll {
     max-width: 750px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em 2em;
-    display: flex;
-    justify-content: space-between;
+    padding: 1em;
+    display: grid;
     align-items: center;
+    grid-template-columns: 1fr 6fr auto;
+    grid-gap: 0.5em;
 }
 .announcement p::before {
     display: inline-block;
@@ -737,13 +741,22 @@ body.noScroll {
     -webkit-font-smoothing: antialiased;
     content: "\f0a1";
     font-family: "Font Awesome 5 Free";
-    margin-right: 2em;
+    margin: 0.5em 1em 0.5em 0;
     font-weight: 900;
     font-size: 1.5em;
     color: #ec455a;
 }
 .announcement .button {
-    margin-left: 2em;
+    margin: 0.5em auto 0.5em auto;
+
+}
+@media only screen and (min-width: 500px) {
+    .announcement p {
+        flex-direction: row;
+    }
+    .announcement p::before {
+        display: inline-block;
+    }
 }
 /* end announcement block */
 /* block two-column-list */
