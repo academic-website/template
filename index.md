@@ -28,6 +28,7 @@ page_sections:
       ![](/template/uploads/2018/07/24/workshop.svg)
 
       ### Workshops
+  text_align_center: true
 - template: body-copy
   block: body-copy
   content: "<h2>Venue</h2><p>The conference will be taking place at the beautiful
