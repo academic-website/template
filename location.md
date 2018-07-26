@@ -16,7 +16,7 @@ page_sections:
     Commons (BY) license'
 menu:
   main:
-    weight: 3
+    weight: 2
     title: Location
 
 ---
