@@ -15,7 +15,7 @@ page_sections:
   - date_or_time: 10am–11am
     free_text: "<strong>Conference Opening<br></strong>Welcome from the Conference
       chair - Mr Conference Chair"
-  caption: Caption
+  caption: ''
 menu:
   main:
     weight: 6
