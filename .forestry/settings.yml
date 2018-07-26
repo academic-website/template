@@ -11,7 +11,7 @@ collections:
   label: Posts
   create: all
 upload_dir: uploads
-public_path: "/uploads"
-front_matter_path: ''
-use_front_matter_path: false
+public_path: "/template/uploads"
+front_matter_path: "/uploads"
+use_front_matter_path: true
 file_template: ":year:/:month:/:day:/:filename:"
