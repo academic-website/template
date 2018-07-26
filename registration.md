@@ -37,6 +37,7 @@ page_sections:
   purchase_link_label: Get your tickets now
 menu:
   main:
-    weight: 4
+    weight: 5
+    identifier: item_cX4XiDQ
 
 ---
