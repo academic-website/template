@@ -27,6 +27,7 @@ fields:
   - people
   - ticket-types
   - date-table
+  - sponsor-logos
 pages:
 - program.md
 - speakers.md
