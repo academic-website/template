@@ -15,7 +15,8 @@ page_sections:
 - template: three-columns
   block: three-column
   column_1:
-    column_content: |2-
+    column_content: |-
+      ![](/template/uploads/2018/07/24/keynote.svg)
 
       ### Keynotes
   column_2:
