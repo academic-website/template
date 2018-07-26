@@ -15,18 +15,15 @@ page_sections:
 - template: three-columns
   block: three-column
   column_1:
-    column_content: |-
-      ![](/template/uploads/2018/07/24/keynote.svg)
+    column_content: |2-
 
       ### Keynotes
   column_2:
-    column_content: |-
-      ![](/template/uploads/2018/07/24/presentation.svg)
+    column_content: |2-
 
       ### Paper and poster presentations
   column_3:
-    column_content: |-
-      ![](/template/uploads/2018/07/24/workshop.svg)
+    column_content: |2-
 
       ### Workshops
   text_align_center: true
