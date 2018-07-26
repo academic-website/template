@@ -2,7 +2,7 @@
     <div class="container">
         <div class="people{% if section.display == 'Two per row' %} two-column{% elsif section.display == 'Five max per row' %} five-column{% endif %}">
             {% for person in section.people %}<div class="person">
-                <img src="{{ person.person_photo }}" alt="Photo of {{ person.person_name }}">
+                <img src="{{ person.person_photo | relative_url }}" alt="Photo of {{ person.person_name }}">
                 <div class="details">
                     <p class="person-name">{{ person.person_name }}</p>
                     {% if person.person_organisation or person.person_title %}<p><span class="person-title">{{ person.person_title}}</span> <span class="person-organisation">{{ person.person_organisation }}</span></p>{% endif %}

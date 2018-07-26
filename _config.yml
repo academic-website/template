@@ -1,10 +1,16 @@
-baseurl: /template
+title: Research wbsite template
+author: needawebguy.com
+email:
+description: >-
+  Website template for Academic conferences
+baseurl: "/template"
 # Build settings
 defaults:
   - scope:
         path: "" # an empty string here means all files in the project
     values:
         layout: "page" # this ensures all content renders with layouts/default.html
+markdown: kramdown
 pugins:
     - jekyll-menus
     - jekyll-feed
