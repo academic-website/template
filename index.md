@@ -20,11 +20,13 @@ page_sections:
 
       ### Keynotes
   column_2:
-    column_content: |2-
+    column_content: |-
+      ![](/template/uploads/2018/07/24/presentation.svg)
 
       ### Paper and poster presentations
   column_3:
-    column_content: |2-
+    column_content: |-
+      ![](/template/uploads/2018/07/24/workshop.svg)
 
       ### Workshops
   text_align_center: true
