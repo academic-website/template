@@ -54,6 +54,8 @@ page_sections:
   display: Five max per row
 menu:
   main:
-    weight: 3
+    weight: 1
+    identifier: item_BCrQ6tA
+    parent: item_W5en4M9
 
 ---

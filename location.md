@@ -16,7 +16,8 @@ page_sections:
     Commons (BY) license'
 menu:
   main:
-    weight: 2
+    weight: 1
     title: Location
+    parent: item_BCrQ6tA
 
 ---
