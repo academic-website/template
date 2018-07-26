@@ -516,7 +516,8 @@ body.noScroll {
 .body-copy ol,
 .body-copy ul,
 .body-copy figure,
-.body-copy pre {
+.body-copy pre,
+.body-copy blockquote {
     max-width: 750px;
     margin-left: auto;
     margin-right: auto;
@@ -576,6 +577,24 @@ body.noScroll {
     background: #263238;
     color: #ec455a;
     padding: 1em 2em;
+}
+.body-copy blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 3em auto;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+.body-copy blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.body-copy blockquote p {
+  display: inline;
 }
 /* end body copy block */
 /* people block */
