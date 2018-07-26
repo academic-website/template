@@ -9,7 +9,7 @@ page_sections:
     Melbourne.</p>"
 - template: figure
   block: figure
-  image: "/uploads/2018/07/12/32398964005_0a23c8e2ff_o.jpg"
+  image: "/uploads/2018/07/22/avatar.jpg"
   caption: Sydney harbour bridge
   attribution: '"Sydney Harbour Bridge, Australia" flickr photo by Lenny K Photography
     https://flickr.com/photos/lennykphotography/15604546554 shared under a Creative
