@@ -54,6 +54,6 @@ page_sections:
   display: Five max per row
 menu:
   main:
-    weight: 2
+    weight: 3
 
 ---
