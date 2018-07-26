@@ -807,6 +807,7 @@ table.dates td strong {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 2em;
 }
 .video {
     width: 98%;
@@ -856,6 +857,46 @@ table.dates td strong {
         width: 31%;
     }
 }
+/* end block three columns */
+/* block sponsor logos */
+.logos {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logos li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+}
+@media only screen and (min-width: 400px) {
+    .logos.max-3-per-row li,
+    .logos.max-4-per-row li,
+    .logos.max-5-per-row li,
+    .logos.max-6-per-row li {
+        width: 33.333333%;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .logos.max-4-per-row li,
+    .logos.max-5-per-row li,
+    .logos.max-6-per-row li {
+        width: 25%;
+    }
+}
+@media only screen and (min-width: 1140px) {
+    .logos.max-5-per-row li {
+        width: 20%;
+    }
+    .logos.max-6-per-row li {
+        width: 16.666667%;
+    }
+}
+/* en block sponsor logos */
 
 /* ==========================================================================
    Helper classes
