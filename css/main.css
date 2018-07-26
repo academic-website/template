@@ -188,7 +188,6 @@ h5 {
 h6 {
     font-size: 0.889em;
     font-weight: bold;
-    text-transform: uppercase;
 }
 figure {
   text-align: center;
@@ -548,6 +547,7 @@ body.noScroll {
     font-size: 1em;
     font-weight: 400;
     text-transform: uppercase;
+    border-bottom: 1px solid #222;
 }
 .body-copy h6 {
     margin: 3em auto 0 auto;
