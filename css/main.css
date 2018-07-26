@@ -107,7 +107,8 @@ html {
 }
 /* end */
 body {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Raleway', sans-serif;
     background-color: #f4f4f4;
 }
 b,
