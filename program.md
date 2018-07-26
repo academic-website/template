@@ -15,6 +15,6 @@ page_sections:
       chair - Mr Conference Chair"
 menu:
   main:
-    weight: 3
+    weight: 6
 
 ---
