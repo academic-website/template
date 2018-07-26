@@ -9,7 +9,7 @@ page_sections:
 - template: people
   block: person-list
   people:
-  - person_photo: "/uploads/2018/07/22/avatar.jpg"
+  - person_photo: "/uploads/2018/07/12/32398964005_0a23c8e2ff_o.jpg"
     person_name: Professor Jane Doe
     person_title: Awesome job title
     person_organisation: 'Prestigious organisation '
