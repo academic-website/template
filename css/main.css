@@ -110,6 +110,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f4f4f4;
 }
+b,
+strong {
+  font-weight: 600;
+}
 /* flexible media */
 img {
     max-width: 100%;
@@ -478,9 +482,6 @@ body.noScroll {
     padding: 1px 4% 1px 4%;
     background: #fff;
 }
-.block .container > *:nth-child(1) {
-    /* margin-top: 0; */
-}
 .block:last-child .container {
     padding-bottom: 4em;
 }
@@ -714,7 +715,7 @@ body.noScroll {
     color: #7a1fc6;
 }
 .ticket-details {
-    padding: 1em 2em;
+    padding: 0 2em 1em 2em;
 }
 .ticket-details strong {
     font-size: 1.2rem;
@@ -775,14 +776,15 @@ body.noScroll {
 /* block two-column-list */
 table.dates {
     max-width: 750px;
-    margin: 1em auto;
+    margin: 2em auto;
     width: 100%;
 }
 table.dates caption {
-    text-align: left;
-    font-size: 1.931em;
-    margin-bottom: 1em;
-    font-weight: 300;
+    margin-bottom: 0;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #222;
+    text-transform: uppercase;
 }
 table.dates th,
 table.dates td {
