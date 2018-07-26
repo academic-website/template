@@ -24,7 +24,7 @@ page_sections:
 - template: people
   block: person-list
   people:
-  - person_photo: "/template/uploads/2018/07/22/avatar.jpg"
+  - person_photo: "/uploads/2018/07/22/avatar.jpg"
     person_name: Ursula Andrews
     person_title: Event Organiser to the Stars
     person_bio: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
@@ -49,7 +49,7 @@ page_sections:
       tincidunt. Vivamus finibus ultrices libero a faucibus. Pellentesque auctor ut
       nibh et tincidunt. Suspendisse sapien libero, hendrerit eu neque in, dictum
       porta libero. Aliquam ut quam at magna volutpat suscipit."
-    person_photo: "/template/uploads/2018/07/22/avatar.jpg"
+    person_photo: "/uploads/2018/07/22/avatar.jpg"
     person_organisation: Conference University
   display: Five max per row
 menu:
