@@ -60,9 +60,6 @@ page_sections:
   - "/uploads/2018/07/26/logo-6.svg"
   - "/uploads/2018/07/26/logo-8.svg"
   - "/uploads/2018/07/26/logo-7.svg"
-- template: announcement
-  block: announcement
-  announcement_text: Announce
 date: 2018-07-08 14:00:00 +0000
 menu:
   main:
