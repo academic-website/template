@@ -5,8 +5,8 @@ page_sections:
 - template: announcement
   block: announcement
   announcement_text: Registration closing soon - August 8 2020
-  announcement_link: 
-  announcement_link_label:
+  announcement_link: "/template/registration"
+  announcement_link_label: Register now
   hide: false
 - template: large-headline
   block: large-headline
