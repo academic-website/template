@@ -572,6 +572,11 @@ body.noScroll {
 .body-copy figure img {
     margin: 0 auto;
 }
+.body-copy pre {
+    background: #263238;
+    color: #ec455a;
+    padding: 1em 2em;
+}
 /* end body copy block */
 /* people block */
 .people {
