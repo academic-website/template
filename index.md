@@ -49,6 +49,18 @@ page_sections:
 - template: body-copy
   block: body-copy
   content: "<h2>Conference sponsors</h2>"
+- template: sponsor-logos
+  block: sponsor-logos
+  max_per_row: '4'
+  logos:
+  - "/template/uploads/2018/07/26/logo-8.svg"
+  - "/template/uploads/2018/07/26/logo-7.svg"
+  - "/template/uploads/2018/07/26/logo-6.svg"
+  - "/template/uploads/2018/07/26/logo-5.svg"
+  - "/template/uploads/2018/07/26/logo-4.svg"
+  - "/template/uploads/2018/07/26/logo-3.svg"
+  - "/template/uploads/2018/07/26/logo-2.svg"
+  - "/template/uploads/2018/07/26/logo-1.svg"
 date: 2018-07-08 14:00:00 +0000
 menu:
   main:
