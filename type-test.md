@@ -27,6 +27,5 @@ page_sections:
     commodo, lobortis bibendum sapien. Integer suscipit posuere purus, quis venenatis
     velit rutrum vitae.</p><pre><code>&lt;html lang="en"&gt;</code></pre><blockquote><p>This
     is a block quote</p></blockquote><p></p>
-published: false
 
 ---
