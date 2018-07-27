@@ -109,6 +109,9 @@ html {
 body {
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Raleway', sans-serif;
+    -webkit-font-feature-settings: "lnum";
+    -moz-font-feature-settings: "lnum";
+    font-feature-settings: "lnum"; 
     background-color: #f4f4f4;
 }
 b,
@@ -171,11 +174,11 @@ h6 {
 }
 h2 {
     font-size: 1.424em;
-    font-weight: 400;
+    font-weight: bold;
 }
 h3 {
     font-size: 1.266em;
-    font-weight: 400;
+    font-weight: bold;
 }
 h4 {
     font-size: 1.125em;
@@ -521,7 +524,7 @@ body.noScroll {
     margin-left: auto;
     margin-right: auto;
 }
-.body-copy .block h1 {
+.block h1 {
     font-size: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -553,7 +556,6 @@ body.noScroll {
     margin: 3em auto 0 auto;
     font-size: 1em;
     font-weight: 700;
-    font-style: italic;;
 }
 .body-copy p,
 .body-copy li {
