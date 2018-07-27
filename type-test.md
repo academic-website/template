@@ -27,5 +27,46 @@ page_sections:
     commodo, lobortis bibendum sapien. Integer suscipit posuere purus, quis venenatis
     velit rutrum vitae.</p><pre><code>&lt;html lang="en"&gt;</code></pre><blockquote><p>This
     is a block quote</p></blockquote><p></p>
+- template: three-columns
+  block: three-column
+  column_1:
+    column_content: |-
+      # Heading 1
+
+      ## Heading 2
+
+      Paragraph - [Hyperlink](example.org) ipsum dolor sit amet, **bold** adipiscing elit. _Italic_ magna arcu, mattis quis nisl commodo, lobortis bibendum sapien. Integer suscipit posuere purus, quis venenatis velit rutrum vitae.
+
+      * This is an unordered list
+      * This is an unordered list
+        * This is an unordered list
+        * This is an unordered list
+      * This is an unordered list
+
+      ### Heading 3
+
+      Paragraph - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce magna arcu, mattis quis nisl commodo, lobortis bibendum sapien. Integer suscipit posuere purus, quis venenatis velit rutrum vitae.
+
+      1. This is an ordered list
+      2. This is an ordered list
+         1. This is an ordered list
+         2. This is an ordered list
+      3. This is an ordered list
+
+      #### Heading 4
+
+      Paragraph - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce magna arcu, mattis quis nisl commodo, lobortis bibendum sapien. Integer suscipit posuere purus, quis venenatis velit rutrum vitae.
+
+      ##### Heading 5
+
+      Paragraph - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce magna arcu, mattis quis nisl commodo, lobortis bibendum sapien. Integer suscipit posuere purus, quis venenatis velit rutrum vitae.
+
+      ###### Heading 6
+
+      Paragraph - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce magna arcu, mattis quis nisl commodo, lobortis bibendum sapien. Integer suscipit posuere purus, quis venenatis velit rutrum vitae.
+
+          <html lang="en">
+
+      > This is a block quote
 
 ---
