@@ -39,16 +39,10 @@ page_sections:
     person_organisation: UAevents
   - person_name: Lucky Lane
     person_title: ''
-    person_bio: "Lucy Schulz is Director of Deakin University’s Cloud Campus.  Prior
-      to this she Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-      posuere cubilia Curae; Praesent molestie orci nisi, vel congue lectus rutrum
-      a. Phasellus blandit elementum ligula, fringilla convallis odio pharetra id.
-      Mauris dignissim eros sed molestie interdum. \n\nEtiam vehicula fringilla massa
-      non sodales. Fusce nisl sapien, luctus non odio id, feugiat feugiat eros. Morbi
-      ac nibh egestas lorem euismod pulvinar. Suspendisse dictum finibus metus ut
-      tincidunt. Vivamus finibus ultrices libero a faucibus. Pellentesque auctor ut
-      nibh et tincidunt. Suspendisse sapien libero, hendrerit eu neque in, dictum
-      porta libero. Aliquam ut quam at magna volutpat suscipit."
+    person_bio: |-
+      Lucky Lane is Director of Conference University’s Event Spaces.  Prior to this she Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent molestie orci nisi, vel congue lectus rutrum a. Phasellus blandit elementum ligula, fringilla convallis odio pharetra id. Mauris dignissim eros sed molestie interdum.
+
+      Etiam vehicula fringilla massa non sodales. Fusce nisl sapien, luctus non odio id, feugiat feugiat eros. Morbi ac nibh egestas lorem euismod pulvinar. Suspendisse dictum finibus metus ut tincidunt. Vivamus finibus ultrices libero a faucibus. Pellentesque auctor ut nibh et tincidunt. Suspendisse sapien libero, hendrerit eu neque in, dictum porta libero. Aliquam ut quam at magna volutpat suscipit.
     person_photo: "/uploads/2018/07/30/attractive-beautiful-beauty-355164-cropped.jpg"
     person_organisation: Conference University
   display: Five max per row
