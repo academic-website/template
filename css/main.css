@@ -601,7 +601,7 @@ body.noScroll {
 /* end body copy block */
 /* people block */
 .people {
-    margin: 2em 0;
+    margin: 2em 0 0 0;
 }
 .people.two-column,
 .people.five-column {
@@ -613,7 +613,10 @@ body.noScroll {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-column-gap: 2em;
-    margin: 0 1% 4em 1%;
+    margin: 0 1% 1% 1%;
+}
+.people.five-column .person {
+    margin-bottom: 2em;
 }
 .person img {
     max-width: 100%;
@@ -841,7 +844,7 @@ table.dates td strong {
 }
 .video {
     width: 98%;
-    margin: 0 1% 0 1%;
+    margin: 0 1% 1em 1%;
 }
 .vid-wrapper figcaption {
     position: absolute;
