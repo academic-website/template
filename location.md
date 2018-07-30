@@ -9,7 +9,7 @@ page_sections:
     Melbourne.</p>"
 - template: figure
   block: figure
-  image: "/uploads/2018/07/30/25242293926_f0eff34493_z.jpg"
+  image: "/uploads/2018/07/30/25242293926_f0eff34493_c.jpg"
   caption: Hosier Lane
   attribution: '"Hosier Lane Melbourne." flickr photo by Bernard Spragg https://flickr.com/photos/volvob12b/25242293926
     shared into the public domain using (CC0)'
