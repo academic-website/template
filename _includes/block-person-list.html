@@ -6,9 +6,11 @@
                 <div class="details">
                     <p class="person-name">{{ person.person_name }}</p>
                     {% if person.person_organisation or person.person_title %}<p><span class="person-title">{{ person.person_title}}</span> <span class="person-organisation">{{ person.person_organisation }}</span></p>{% endif %}
-                    {% if person.person_bio %}<div class="bio">{{ person.person_bio | markdownify }}</div>
+                    {% if person.person_bio %}{% unless person.person_bio == empty %}<div class="bio">
+                        {{ person.person_bio | markdownify }}
+                    </div>{% endunless %}{% endif %}
                 </div>
-                <button class="show-bio">Bio</button>{% endif %}
+                {% if person.person_bio %}{% unless person.person_bio == empty %}<button class="show-bio">Bio</button>{% endunless %}{% endif %}
             </div>
             {% endfor %}
         </div>
