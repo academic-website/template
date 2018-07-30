@@ -111,7 +111,7 @@ body {
     font-family: 'Raleway', sans-serif;
     -webkit-font-feature-settings: "lnum";
     -moz-font-feature-settings: "lnum";
-    font-feature-settings: "lnum"; 
+    font-feature-settings: "lnum";
     background-color: #f4f4f4;
 }
 b,
@@ -212,7 +212,7 @@ figcaption.attribution::after {
   margin-left: 10px;
   font-weight: 400;
 }
-figcaption span {
+figcaption cite {
   display: inline-block;
   border: 1px solid #fc0;
   padding: 3px 6px;
@@ -227,7 +227,7 @@ figcaption span {
   transform: translateX(-50%);
   opacity: 0;
 }
-figcaption.attribution:hover span {
+figcaption.attribution:hover cite {
   opacity: 100;
 }
 
