@@ -9,7 +9,7 @@ page_sections:
 - template: people
   block: person-list
   people:
-  - person_photo: "/uploads/2018/07/22/avatar.jpg"
+  - person_photo: "/uploads/2018/07/30/adult-beautiful-close-up-773371-cropped.jpg"
     person_name: Professor Jane Doe
     person_title: Awesome job title
     person_organisation: 'Prestigious organisation '
@@ -24,8 +24,8 @@ page_sections:
 - template: people
   block: person-list
   people:
-  - person_photo: "/uploads/2018/07/22/avatar.jpg"
-    person_name: Ursula Andrews
+  - person_photo: "/uploads/2018/07/30/adult-beach-beard-736716-cropped.jpg"
+    person_name: Andrew Andrews
     person_title: Event Organiser to the Stars
     person_bio: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
       cubilia Curae; Praesent molestie orci nisi, vel congue lectus rutrum a. Phasellus
@@ -49,7 +49,7 @@ page_sections:
       tincidunt. Vivamus finibus ultrices libero a faucibus. Pellentesque auctor ut
       nibh et tincidunt. Suspendisse sapien libero, hendrerit eu neque in, dictum
       porta libero. Aliquam ut quam at magna volutpat suscipit."
-    person_photo: "/uploads/2018/07/22/avatar.jpg"
+    person_photo: "/uploads/2018/07/30/attractive-beautiful-beauty-355164-cropped.jpg"
     person_organisation: Conference University
   display: Five max per row
 menu:

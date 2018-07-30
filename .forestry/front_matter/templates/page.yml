@@ -31,8 +31,8 @@ fields:
 pages:
 - program.md
 - index.md
-- speakers.md
 - registration.md
 - location.md
 - call-for-papers.md
 - type-test.md
+- speakers.md
