@@ -9,7 +9,7 @@ page_sections:
 - template: people
   block: person-list
   people:
-  - person_photo: ''
+  - person_photo: "/uploads/2018/07/30/adult-beautiful-close-up-773371-cropped.jpg"
     person_name: Professor Jane Doe
     person_title: Awesome job title
     person_organisation: 'Prestigious organisation '
