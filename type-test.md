@@ -25,8 +25,8 @@ page_sections:
     venenatis velit rutrum vitae.</p><h6>Heading 6</h6><p>Paragraph - Lorem ipsum
     dolor sit amet, consectetur adipiscing elit. Fusce magna arcu, mattis quis nisl
     commodo, lobortis bibendum sapien. Integer suscipit posuere purus, quis venenatis
-    velit rutrum vitae.</p><pre><code><code>&lt;html lang=\"en\"&gt;</code>\n\t&lt;head&gt;\n
-    \   \t&lt;title&gt;Basic web page&lt;/title&gt;\n\t&lt;/head&gt;\n    &lt;body&gt;\n
+    velit rutrum vitae.</p><pre><code><code>&lt;html lang=\"en\"&gt;</code>\n    &lt;head&gt;\n
+    \   \t&lt;title&gt;Basic web page&lt;/title&gt;\n    &lt;/head&gt;\n    &lt;body&gt;\n
     \   \t&lt;p&gt;This is a web page&lt;/p&gt;\n    &lt;/body&gt;\n&lt;/html&gt;</code></pre><blockquote><p>This
     is a block quote</p></blockquote><p></p>"
 - template: three-columns
