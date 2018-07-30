@@ -98,11 +98,7 @@ page_sections:
     person_name: Stephanie Brown
     person_title: Marketing Executive
     person_organisation: Spoiler Pty Ltd
-    person_bio: Pellentesque euismod nisi mi, ut cursus erat cursus sit amet. Vivamus
-      porttitor orci nec justo tristique tempus. Etiam et lacus ullamcorper, ornare
-      tortor sed, elementum erat. Suspendisse mi tortor, porta et quam at, rhoncus
-      rutrum urna. Vestibulum est nibh, iaculis non pellentesque rhoncus, vestibulum
-      in turpis. Donec auctor ornare pretium.
+    person_bio: ''
   display: Five max per row
 menu:
   main:
