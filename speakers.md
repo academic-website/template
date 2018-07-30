@@ -37,7 +37,7 @@ page_sections:
       ipsum primis in faucibus."
   - person_photo: "/uploads/2018/07/30/adult-boss-business-756484-cropped.jpg"
     person_name: Professor Joe Banks
-    person_title: Big Bank Marketing Director
+    person_title: Marketing Director
     person_organisation: Big Bank
     person_bio: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
       cubilia Curae; Praesent molestie orci nisi, vel congue lectus rutrum a. Phasellus
