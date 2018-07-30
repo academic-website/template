@@ -76,6 +76,15 @@ page_sections:
       Etiam vehicula fringilla massa non sodales. Fusce nisl sapien, luctus non odio id, feugiat feugiat eros. Morbi ac nibh egestas lorem euismod pulvinar. Suspendisse dictum finibus metus ut tincidunt. Vivamus finibus ultrices libero a faucibus. Pellentesque auctor ut nibh et tincidunt. Suspendisse sapien libero, hendrerit eu neque in, dictum porta libero. Aliquam ut quam at magna volutpat suscipit.
     person_photo: "/uploads/2018/07/30/attractive-beautiful-beauty-355164-cropped.jpg"
     person_organisation: Conference University
+  - person_photo: "/uploads/2018/07/30/adult-asia-attractive-937483-cropped.jpg"
+    person_title: Captain Marvel
+    person_organisation: Avengers
+    person_bio: Pellentesque euismod nisi mi, ut cursus erat cursus sit amet. Vivamus
+      porttitor orci nec justo tristique tempus. Etiam et lacus ullamcorper, ornare
+      tortor sed, elementum erat. Suspendisse mi tortor, porta et quam at, rhoncus
+      rutrum urna. Vestibulum est nibh, iaculis non pellentesque rhoncus, vestibulum
+      in turpis. Donec auctor ornare pretium.
+    person_name: Carol Danvers
   display: Five max per row
 menu:
   main:
