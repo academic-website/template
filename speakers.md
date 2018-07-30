@@ -87,8 +87,8 @@ page_sections:
     person_name: Carol Danvers
   - person_photo: "/uploads/2018/07/30/beard-facial-hair-happy-1073097-cropped.jpg"
     person_name: George Georgsen
-    person_title: Lecturer
-    person_organisation: School of Rock
+    person_title: ''
+    person_organisation: ''
     person_bio: Pellentesque euismod nisi mi, ut cursus erat cursus sit amet. Vivamus
       porttitor orci nec justo tristique tempus. Etiam et lacus ullamcorper, ornare
       tortor sed, elementum erat. Suspendisse mi tortor, porta et quam at, rhoncus
