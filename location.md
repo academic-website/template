@@ -9,11 +9,10 @@ page_sections:
     Melbourne.</p>"
 - template: figure
   block: figure
-  image: "/uploads/2018/07/22/avatar.jpg"
-  caption: Sydney harbour bridge
-  attribution: '"Sydney Harbour Bridge, Australia" flickr photo by Lenny K Photography
-    https://flickr.com/photos/lennykphotography/15604546554 shared under a Creative
-    Commons (BY) license'
+  image: "/uploads/2018/07/30/25242293926_f0eff34493_z.jpg"
+  caption: Hosier Lane
+  attribution: '"Hosier Lane Melbourne." flickr photo by Bernard Spragg https://flickr.com/photos/volvob12b/25242293926
+    shared into the public domain using (CC0)'
 menu:
   main:
     weight: 2
