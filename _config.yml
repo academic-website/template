@@ -19,9 +19,6 @@ defaults:
     values:
       layout: "post"
 collections:
-  - path: _posts
-    templates:
-      - post
     posts:
       output: true
 markdown: kramdown
