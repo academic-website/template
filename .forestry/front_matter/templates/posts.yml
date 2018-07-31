@@ -7,4 +7,4 @@ fields:
   label: Layout
   type: text
   hidden: true
-  default: post
+  default: posts
