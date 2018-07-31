@@ -1,26 +1,24 @@
 {% include head.html %}
 {% include header.html %}
 <main>
-{% if page.url != "/" %}
-<div class="page-title">
-    <div class="container">
-        <h1>{{ page.title }}</h1>
-    </div>
-</div>
-{% endif %}
-<div class="block">
-    <div class="container">
-        <div class="meta">
-            {% if page.date %}<div class="post-date">{{ page.date | date_to_string }}</div>{% endif %}
-            {% if page.tags.size > 0 %}<span class="meta-separator">&bull;</span>
-            <ul class="tags-list">
-                <li class="inline tag_list_item">Tags:</li>
-                {% for tag in page.tags %}<li class="inline tag_list_item">{{ tag }}{% if forloop.last == true %}{% else %}<span>,</span>{% endif %}</li>{% endfor %}
-            </ul>{% endif %}
+    <div class="block blog-post">
+        <div class="container">
+            <div class="meta">
+                {% if page.date %}<p class="article-date">{{ page.date | date_to_string }}</p>{% endif %}
+                {% if page.author %}{% unless page.author == empty %}<p class="article-author">by {{ page.author }}</p>{% endunless %}{% endif %}
+            </div>
+            <article class="body-copy">
+                <h1>{{ page.title }}</h1>
+                {{ content }}
+            </article>
         </div>
-        {{ content }}
     </div>
-</div>
+    <div class="posttopostnav">
+        <div class="container">
+            <p class="next">{% if page.next.url %}<a href="{{ page.next.url | absolute_url }}">&laquo; {{page.next.title}}</a>{% endif %}</p>
+            <p class="prev">{% if page.previous.url %}<a href="{{ page.previous.url | absolute_url }}"> {{page.previous.title}} &raquo;</a>{% endif %}</p>
+        </div>
+    </div>
 </main>
 {% include footer.html %}
 {% include foot.html %}
