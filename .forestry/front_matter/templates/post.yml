@@ -24,4 +24,4 @@ fields:
   hidden: true
   default: post
 pages:
-- _posts/my-test-blog-post.md
+- _posts/2018-07-31-my-test-blog-post.md
