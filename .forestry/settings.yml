@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: true
 admin_path: admin/
-webhook_url:
+webhook_url: 
 sections:
 - type: jekyll-pages
   label: Pages
@@ -14,7 +14,9 @@ sections:
   create: all
   templates:
   - post
-- match: "blog.md"
+- type: jekyll-pages
+  label: ''
+  create: all
   templates:
   - posts
 upload_dir: uploads
