@@ -3,6 +3,10 @@ label: Posts
 hide_body: true
 is_partial: false
 fields:
+- type: text
+  name: title
+  label: Title
+  default: Blog
 - name: layout
   label: Layout
   type: text
