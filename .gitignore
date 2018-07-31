@@ -41,3 +41,7 @@ _site/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+
+.bundle/
+vendor/

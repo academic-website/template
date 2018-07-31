@@ -7,11 +7,23 @@ baseurl: "/template"
 # Build settings
 defaults:
   - scope:
-        path: "" # an empty string here means all files in the project
+      path: "" # an empty string here means all files in the project
     values:
-        layout: "page" # this ensures all content renders with layouts/default.html
+      layout: page # this ensures all content renders with layouts/page.html
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+collections:
+    posts:
+        output: true
 markdown: kramdown
+jekyll-archives:
+  enabled: all
+  layout: "archive"
 pugins:
     - jekyll-menus
     - jekyll-feed
+    - jekyll-archives
 permalink: pretty
