@@ -7,6 +7,8 @@ fields:
   name: title
   label: Title
   default: Blog
+  description: This layout is for blog post display - this page will display blog
+    posts
 - name: layout
   label: Layout
   type: text
