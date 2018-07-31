@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: true
 admin_path: admin/
-webhook_url:
+webhook_url: 
 sections:
 - type: jekyll-pages
   label: Pages
@@ -15,12 +15,3 @@ public_path: "/template/uploads"
 front_matter_path: "/uploads"
 use_front_matter_path: true
 file_template: ":year:/:month:/:day:/:filename:"
-collections:
-- path: _posts
-  label: Blog
-  templates:
-  - post
-- type: pages
-  label: Blog
-  templates:
-  - page
