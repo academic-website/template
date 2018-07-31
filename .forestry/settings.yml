@@ -14,9 +14,6 @@ sections:
   create: all
   templates:
   - post
-- match: "blog.md"
-  templates:
-  - posts
 upload_dir: uploads
 public_path: "/template/uploads"
 front_matter_path: "/uploads"
