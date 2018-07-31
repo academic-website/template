@@ -4,6 +4,6 @@ layout: posts
 page_sections: []
 menu:
   main:
-    weight: 2
+    weight: 7
 
 ---
