@@ -8,22 +8,25 @@ baseurl: "/template"
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
+      type: "pages"
     values:
-      layout: page # this ensures all content renders with layouts/page.html
+      layout: "page" # this ensures all content renders with layouts/page.html
+      templates:
+        - page
   - scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
-      layout: post
+      layout: "post"
 collections:
     posts:
-        output: true
+      output: true
 markdown: kramdown
 jekyll-archives:
   enabled: all
   layout: "archive"
 pugins:
-    - jekyll-menus
-    - jekyll-feed
-    - jekyll-archives
+  - jekyll-menus
+  - jekyll-feed
+  - jekyll-archives
 permalink: pretty
