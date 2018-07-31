@@ -9,10 +9,7 @@ sections:
   create: all
   templates:
   - page
- - type: jekyll-pages
-    match: "blog.m"
-    templates:
-    - posts
+  - posts
 - type: jekyll-posts
   label: Blog
   create: all
