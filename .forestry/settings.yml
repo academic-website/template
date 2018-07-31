@@ -10,9 +10,8 @@ sections:
   templates:
   - page
 - type: jekyll-posts
-  label: Posts
-  create: all
   label: Blog
+  create: all
   templates:
   - post
 upload_dir: uploads
