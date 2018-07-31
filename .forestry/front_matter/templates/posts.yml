@@ -8,7 +8,7 @@ fields:
   label: Title
   default: Blog
   description: This layout is for blog post display - this page will display blog
-    posts
+    posts. Change the title below if you prefer 'News', 'Articles' or something else.
 - name: layout
   label: Layout
   type: text
