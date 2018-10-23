@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Need three posts to test - ACME sample site</title>
+    <title>ACME sample site</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="apple-touch-icon" href="/template/icon.png">
@@ -62,25 +62,14 @@
 </header>
 
 <main>
-    <div class="block blog-post">
-        <div class="container">
-            <div class="meta">
-                <p class="article-date">31 Jul 2018</p>
-                <p class="article-author">by Mr Strong</p>
-            </div>
-            <article class="body-copy">
-                <h1>Need three posts to test</h1>
-                <p>Navigation properly</p>
 
-            </article>
-        </div>
+<div class="page-title">
+    <div class="container">
+        <h1></h1>
     </div>
-    <div class="posttopostnav">
-        <div class="container">
-            <p class="next"><a href="/template/2018/07/31/we-are-proud-to-announce-a-new-keynote-speaker/">&laquo; We are proud to announce a new Keynote speaker</a></p>
-            <p class="prev"></p>
-        </div>
-    </div>
+</div>
+
+
 </main>
 <footer class="site-footer">
 
