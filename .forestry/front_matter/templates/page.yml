@@ -29,10 +29,10 @@ fields:
   - date-table
   - sponsor-logos
 pages:
-- program.md
-- location.md
-- call-for-papers.md
 - speakers.md
 - type-test.md
-- index.md
+- call-for-papers.md
+- location.md
 - registration.md
+- index.md
+- program.md
