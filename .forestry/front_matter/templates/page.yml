@@ -1,7 +1,6 @@
 ---
 label: Page
 hide_body: true
-is_partial: false
 fields:
 - type: text
   name: layout
@@ -30,9 +29,9 @@ fields:
   - sponsor-logos
 pages:
 - call-for-papers.md
-- location.md
-- registration.md
-- type-test.md
-- speakers.md
 - index.md
+- location.md
 - program.md
+- registration.md
+- speakers.md
+- type-test.md
